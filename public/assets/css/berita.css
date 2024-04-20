@@ -1,0 +1,380 @@
+body{
+    margin: 0 0 0 0;
+    display: flex;
+    position: relative;
+    overflow-x: hidden;
+  }
+  .berita .group-33 {
+    border-radius: 20px;
+    background: #4F7B58;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 18px 15.8px 18px 16px;
+    box-sizing: border-box;
+  }
+  .berita .menteri-pemuda-dan-olahraga-terlibat-dalam-kasus-pencucian-uang {
+    margin-bottom: 5px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 44px;
+    color: #FFFFFF;
+  }
+  .berita .maret-2024 {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 32px;
+    color: #FFFFFF;
+  }
+  .berita {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding-top: 59px;
+    width: 1920px;
+    box-sizing: border-box;
+  }
+  .berita .rectangle-13 {
+    background: #4F7B58;
+    width: 1920px;
+    height: 230px;
+  }
+  .berita .tentang-kami {
+    margin: 18px 67.7px 18px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 30px;
+    color: #4F7B58;
+  }
+  .berita .partai {
+    margin: 18px 65.7px 18px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 30px;
+    color: #4F7B58;
+  }
+  .berita .tentang-pemilu {
+    margin: 18px 68.8px 18px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 30px;
+    color: #4F7B58;
+  }
+  .berita .berita-1 {
+    margin: 18px 63.8px 18px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    color: #4F7B58;
+  }
+  .berita .logo-11 {
+    background: url('/assets/pemiluhijau.png') 50% / cover no-repeat;
+    width: 173px;
+    height: 96px;
+  }
+  .berita .logout {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+  .berita .berita-2 {
+    margin: 0 184px 94px 184px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 64px;
+    color: #4F7B58;
+  }
+  .berita .pop-up-1 {
+    border-radius: 50px;
+    border: 3px solid #4F7B58;
+    background: linear-gradient(rgba(79, 123, 88, 0.2), rgba(79, 123, 88, 0.2)), linear-gradient(180deg, #B71211 23.9%, #FFFEFE 69.9%);
+    position: relative;
+    margin-right: 36.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 37.4px 0 17.7px 0;
+    width: 1000px;
+    box-sizing: border-box;
+  }
+  .berita .presiden-dan-wakil-presiden-periode-20242029 {
+    margin-bottom: 43.5px;
+    display: inline-block;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+  }
+  .berita .prabowo-sugianto-kphgibran-rakabuming-raka-bsc {
+    margin-left: 14.5px;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    color: #4F7B58;
+  }
+  .berita .mask-group {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+  .berita .mask-group-1 {
+    margin-right: 22.8px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+  .berita .desc {
+    margin: 0.4px 100px 18.2px 0;
+    display: inline-block;
+    text-align: justify;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 36px;
+    color: #000000;
+  }
+  .berita .berita-lainnya {
+    margin: 0 184px 36px 184px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 40px;
+    color: #4F7B58;
+  }
+  .berita .head-news {
+    margin: 0 184px 35.6px 184px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 40px;
+    color: #4F7B58;
+  }
+  .berita .pemerintah-antisipasi-dampak-ekonomi-dari-konflik-iran-israel {
+    margin-bottom: 6px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 44px;
+    color: #FFFFFF;
+  }
+  .berita .april-2024 {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 32px;
+    color: #FFFFFF;
+  }
+  .berita .sikap-pemerintah-soal-israel-diyakini-tidak-dipengaruhi-prabowo {
+    margin-bottom: 5px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 44px;
+    color: #FFFFFF;
+  }
+  .berita .april-20241 {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 32px;
+    color: #FFFFFF;
+  }
+  .berita .menteri-pemuda-dan-olahraga-terlibat-dalam-kasus-pencucian-uang-1 {
+    margin: 0 0 8px 1px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 44px;
+    color: #FFFFFF;
+  }
+  .berita .maret-20241 {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 32px;
+    color: #FFFFFF;
+  }
+  .berita .menteri-pemuda-dan-olahraga-terlibat-dalam-kasus-pencucian-uang-2 {
+    margin-bottom: 5.5px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 44px;
+    color: #FFFFFF;
+  }
+  .berita .maret-20242 {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 32px;
+    color: #FFFFFF;
+  }
+  .berita .menteri-pemuda-dan-olahraga-terlibat-dalam-kasus-pencucian-uang-3 {
+    margin-bottom: 5px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 44px;
+    color: #FFFFFF;
+  }
+  .berita .maret-20243 {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 32px;
+    color: #FFFFFF;
+  }
+  .berita .menteri-pemuda-dan-olahraga-terlibat-dalam-kasus-pencucian-uang-4 {
+    margin-bottom: 5px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 44px;
+    color: #FFFFFF;
+  }
+  .berita .maret-20244 {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 32px;
+    color: #FFFFFF;
+  }
+  .berita .container {
+    border-radius: 20px;
+    background: #4F7B58;
+    position: relative;
+    margin: 0 185px 31px 184px;
+    display: flex;
+    flex-direction: column;
+    padding: 44px 55.2px 48px 43px;
+    box-sizing: border-box;
+  }
+  .berita .container-1 {
+    border-radius: 20px;
+    background: #4F7B58;
+    position: relative;
+    margin: 0 185px 31px 184px;
+    display: flex;
+    flex-direction: column;
+    padding: 44px 55.2px 48px 43px;
+    box-sizing: border-box;
+  }
+  .berita .container-2 {
+    margin: 7px 0 17px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .berita .container-3 {
+    border-radius: 20px;
+    background: #4F7B58;
+    position: relative;
+    margin: 0 186px 128px 183px;
+    display: flex;
+    flex-direction: column;
+    padding: 44px 55.2px 48px 43px;
+    box-sizing: border-box;
+  }
+  .berita .container-4 {
+    margin-bottom: 24.8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 700px;
+    box-sizing: border-box;
+  }
+  .berita .container-5 {
+    border-radius: 20px;
+    background: #4F7B58;
+    position: relative;
+    margin: 0 185px 31px 184px;
+    display: flex;
+    flex-direction: column;
+    padding: 44px 132.5px 48px 43px;
+    box-sizing: border-box;
+  }
+  .berita .container-6 {
+    margin: 0 184px 116.8px 184px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .berita .container-7 {
+    margin: 0 98px 126px 116px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1706px;
+    box-sizing: border-box;
+  }
+  .berita .container-8 {
+    border-radius: 20px;
+    background: #4F7B58;
+    position: relative;
+    margin: 0 185px 31px 184px;
+    display: flex;
+    flex-direction: column;
+    padding: 43px 0 48px 43px;
+    box-sizing: border-box;
+  }
+  .berita .container-9 {
+    border-radius: 20px;
+    background: #4F7B58;
+    position: relative;
+    margin: 0 185px 32px 184px;
+    display: flex;
+    flex-direction: column;
+    padding: 34px 54.2px 55px 43px;
+    box-sizing: border-box;
+  }
+  .berita .container-10 {
+    border-radius: 20px;
+    background: #4F7B58;
+    position: relative;
+    margin: 0 185px 32px 184px;
+    display: flex;
+    flex-direction: column;
+    padding: 43px 55.2px 47.5px 43px;
+    box-sizing: border-box;
+  }
+  
