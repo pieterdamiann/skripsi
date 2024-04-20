@@ -34,11 +34,13 @@
                 <div class="tentang-kami">
                   Tentang Kami
                 </div>
-                <div class="group-31">
-                  <span class="login">
-                    Login
-                  </span>
-                </div>
+                <a class="masuk" href="login">
+                  <div class="group-31">
+                    <span class="login">
+                      Login
+                    </span>
+                  </div>
+                </a>
               </div>
             </div>
             <div class="berita-1">

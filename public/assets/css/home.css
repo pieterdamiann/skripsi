@@ -280,6 +280,10 @@ body{
     margin-left: 20px;
     overflow-wrap: break-word;
   }
+  .masuk {
+    text-decoration: none;
+    color: #ffffff;
+  }
   .home .login {
     overflow-wrap: break-word;
     font-family: 'Inter';
