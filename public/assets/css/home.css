@@ -47,6 +47,10 @@ body{
     font-size: 30px;
     color: #4F7B58;
   }
+  .home .partai a{
+    text-decoration: none;
+    color: #4F7B58;
+  }
   .home .tentang-pemilu {
     margin: 18px 68.8px 18px 0;
     display: inline-block;
@@ -89,6 +93,10 @@ body{
     font-size: 48px;
     color: #4F7B58;
   }
+  .home .tentang-pemilu a{
+    text-decoration: none;
+    color: #4F7B58;
+  }
   .home .partai-1 {
     margin: 0 118px 27px 118px;
     display: inline-block;
@@ -107,6 +115,10 @@ body{
     font-family: 'Inter';
     font-weight: 700;
     font-size: 48px;
+    color: #4F7B58;
+  }
+  .home .tentang-kami a{
+    text-decoration: none;
     color: #4F7B58;
   }
   .home .lainnya {

@@ -1,0 +1,288 @@
+body{
+    margin: 0 0 0 0;
+    display: flex;
+    position: relative;
+  }
+  .tentang-pemilu .logo-11 {
+    background: url('/assets/pemiluhijau.png') 50% / cover no-repeat;
+    width: 173px;
+    height: 96px;
+  }
+  .tentang-pemilu .logout {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+  .tentang-pemilu .tentang-pemilu-1 {
+    margin: 0 184px 126px 184px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 64px;
+    color: #4F7B58;
+  }
+  .tentang-pemilu .warna-pada-surat-suara-pemilu {
+    margin-bottom: 37.5px;
+    display: inline-block;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 44px;
+    color: #FFFFFF;
+  }
+  .tentang-pemilu .mask-group {
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 49.1px 5.8px 0 5.2px;
+    width: 150.3px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .tentang-pemilu .ellipse-15 {
+    position: absolute;
+    left: -88.8px;
+    top: -68.1px;
+    width: 241.9px;
+    height: 171.3px;
+  }
+  .tentang-pemilu .rectangle-15 {
+    border-radius: 0 0 10px 10px;
+    background: #039E00;
+    position: relative;
+    width: 139.3px;
+    height: 41.3px;
+  }
+  .tentang-pemilu .dprd-kabupaten-kota {
+    position: relative;
+    margin: 0 0.2px 6.8px 0;
+    display: inline-block;
+    align-self: center;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 13px;
+    color: #000000;
+  }
+  .tentang-pemilu .kpu-logo-6 {
+    background: url('../assets/images/kpuLogo5.png') 50% / cover no-repeat;
+    position: relative;
+    margin: 0 12.4px 35.7px 12.4px;
+    align-self: flex-start;
+    width: 27.8px;
+    height: 35.2px;
+  }
+  .tentang-pemilu .dimana-lokasi-saya-dapat-mencoblos {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 44px;
+    color: #FFFFFF;
+  }
+  .tentang-pemilu .apa-yang-perlu-dipersiapkan-agar-bisa-terdaftar {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 44px;
+    color: #FFFFFF;
+  }
+  .tentang-pemilu .bagaimana-cara-mencoblos-yang-sah {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 44px;
+    color: #FFFFFF;
+  }
+  .tentang-pemilu .dimana-lokasi-saya-dapat-mencoblos-1 {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 44px;
+    color: #FFFFFF;
+  }
+  .tentang-pemilu .apa-yang-perlu-dipersiapkan-agar-bisa-terdaftar-1 {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 44px;
+    color: #FFFFFF;
+  }
+  .tentang-pemilu .group-36 {
+    border-radius: 20px;
+    background: #4F7B58;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 18px 15.8px 18px 16px;
+    box-sizing: border-box;
+  }
+  .tentang-pemilu {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding-top: 59px;
+    width: 1920px;
+    box-sizing: border-box;
+  }
+  .tentang-pemilu .rectangle-13 {
+    background: #4F7B58;
+    width: 1920px;
+    height: 230px;
+  }
+  .tentang-pemilu .tentang-kami {
+    margin: 18px 67.7px 18px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 30px;
+    color: #4F7B58;
+  }
+  .tentang-pemilu .partai {
+    margin: 18px 65.7px 18px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 30px;
+    color: #4F7B58;
+  }
+  .tentang-pemilu .tentang-pemilu-2 {
+    margin: 18px 62.6px 18px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    color: #4F7B58;
+  }
+  .tentang-pemilu .berita {
+    margin: 18px 66.5px 18px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 30px;
+    color: #4F7B58;
+  }
+  .tentang-pemilu .group-39 {
+    border-radius: 20px;
+    background: #4F7B58;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 48.4px 38.1px 48.4px;
+    box-sizing: border-box;
+  }
+  .tentang-pemilu .group-41 {
+    border-radius: 20px;
+    background: #4F7B58;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 198.5px 48.1px 217.5px 48.1px;
+    box-sizing: border-box;
+  }
+  .tentang-pemilu .container {
+    border-radius: 20px;
+    background: #4F7B58;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 172px 0 191px 0;
+    width: 506px;
+    box-sizing: border-box;
+  }
+  .tentang-pemilu .container-1 {
+    margin: 0 154px 59px 184px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 32px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .tentang-pemilu .container-2 {
+    border-radius: 32px;
+    border: 15px solid #AAAAAA;
+    background: #FFFFFF;
+    position: relative;
+    margin-left: 0.2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 7.9px 10.7px 8px;
+    width: 166.2px;
+    box-sizing: border-box;
+  }
+  .tentang-pemilu .container-3 {
+    border-radius: 20px;
+    background: #4F7B58;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 58px 24px 0 0;
+    width: 506px;
+    height: 522px;
+    box-sizing: border-box;
+  }
+  .tentang-pemilu .container-4 {
+    border-radius: 20px;
+    background: #4F7B58;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 198.5px 48.1px 217.5px 48.1px;
+    box-sizing: border-box;
+  }
+  .tentang-pemilu .container-5 {
+    border-radius: 20px;
+    background: #4F7B58;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 172px 0 191px 0;
+    width: 506px;
+    box-sizing: border-box;
+  }
+  .tentang-pemilu .container-6 {
+    margin: 0 154px 191px 184px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 32px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .tentang-pemilu .container-7 {
+    margin: 0 98px 126px 116px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1706px;
+    box-sizing: border-box;
+  }
+  .tentang-pemilu .container-8 {
+    margin: 7px 0 17px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }

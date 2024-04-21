@@ -26,13 +26,13 @@
                   <a href="/berita">Berita</a>
                 </div>
                 <div class="tentang-pemilu">
-                  Tentang Pemilu
+                  <a href="/tentangpemilu">Tentang Pemilu</a>
                 </div>
                 <div class="partai">
-                  Partai
+                  <a href="/partai">Partai</a>
                 </div>
                 <div class="tentang-kami">
-                  Tentang Kami
+                  <a href="/tentangkami">Tentang Kami</a>
                 </div>
                 <a class="masuk" href="login">
                   <div class="group-31">

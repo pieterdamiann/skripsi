@@ -30,24 +30,24 @@
                 <div class="email">
                   Email
                 </div>
-                <div class="rectangle-4165">
-                </div>
+                <input type="text" autocomplete="false" class="rectangle-4165"></input>
               </div>
               <div class="group-24">
                 <div class="kata-sandi">
                   Kata sandi
                 </div>
-                <div class="container-1">
-                  <div class="icons-8-hide-901">
-                  </div>
-                </div>
+                <input type="password" autocomplete="false" class="container-1"></input>
               </div>
-              <p class="lupa-kata-sandi-hubungi-kami">
-                <span class="lupa-kata-sandi-hubungi-kami-sub-0"></span><span></span>
-              </p>
-              <p class="belum-punya-akun-daftar">
-                <span class="belum-punya-akun-daftar-sub-0"></span><span></span>
-              </p>
+              <div class="container-4">
+                <p class="lupa-kata-sandi-hubungi-kami">
+                    Lupa Kata Sandi?
+                  </p>
+                  <a class="daftar" href="/register">
+                    <p class="belum-punya-akun-daftar">
+                      Belum Punya Akun? Daftar
+                    </p>
+                  </a>
+            </div>
               <div class="group-27">
                 <span class="masuk">
                   Masuk
