@@ -18,47 +18,48 @@
     </head>
     <body>
         <div class="berita">
-            <div class="container-7">
-                <a href="/home">
-                    <div class="logo-11"></div>
-                </a>
-              <div class="container-2">
-                <div class="berita-1">
-                  Berita
-                </div>
-                <div class="tentang-pemilu">
-                  Tentang Pemilu
-                </div>
-                <div class="partai">
-                  Partai
-                </div>
-                <div class="tentang-kami">
-                  Tentang Kami
-                </div>
-                <div class="group-33">
-                  <span class="logout">
-                    Logout
+          <div class="navbar">
+            <div class="logo1">
+            </div>
+            <div class="rbutton">
+              <div class="berita1">
+                <a href="/berita">Berita</a>
+              </div>
+              <div class="tentang-pemilu">
+                <a href="/tentangpemilu">Tentang Pemilu</a>
+              </div>
+              <div class="partai">
+                <a href="/partai">Partai</a>
+              </div>
+              <div class="tentang-kami">
+                <a href="/tentangkami">Tentang Kami</a>
+              </div>
+              <a class="masuk" href="login">
+                <div class="rectangle-login">
+                  <span class="login">
+                    Login
                   </span>
                 </div>
-              </div>
+              </a>
             </div>
+          </div>
             <div class="berita-2">
               Berita
             </div>
-            <div class="head-news">
+            <div class="text-1">
               HEAD NEWS
             </div>
-            <div class="container-6">
-              <div class="pop-up-1">
-                <div class="presiden-dan-wakil-presiden-periode-20242029">
+            <div class="rectangle-1">
+              <div class="rectangle-1-1">
+                <div class="text-2">
                   Presiden dan Wakil Presiden <br />
                   Periode 2024 - 2029
                 </div>
-                <div class="container-4">
-                  <img class="mask-group-1" src="../assets/prabowo.jpg" />
-                  <img class="mask-group" src="../assets/gibran.jpg" />
+                <div class="rectangle-1-2">
+                  <img class="mask" src="../assets/prabowo.jpg" />
+                  <img class="mask-1" src="../assets/gibran.jpg" />
                 </div>
-                <span class="prabowo-sugianto-kphgibran-rakabuming-raka-bsc">
+                <span class="text-3">
                   Prabowo Sugianto<br />
                   &amp;<br />
                   K. P. H. Gibran Rakabuming Raka, B.Sc.
@@ -71,63 +72,63 @@
             <div class="berita-lainnya">
               Berita Lainnya
             </div>
-            <div class="container-8">
-              <div class="pemerintah-antisipasi-dampak-ekonomi-dari-konflik-iran-israel">
+            <div class="rectangle-2">
+              <div class="text-4">
                 Pemerintah Antisipasi Dampak Ekonomi dari Konflik Iran Israel 
               </div>
-              <span class="april-2024">
+              <span class="text-4-1">
                 16 April 2024
               </span>
             </div>
-            <div class="container-5">
-              <div class="sikap-pemerintah-soal-israel-diyakini-tidak-dipengaruhi-prabowo">
+            <div class="rectangle-2-1">
+              <div class="text-5">
                 Sikap Pemerintah soal Israel Diyakini Tidak Dipengaruhi Prabowo
               </div>
-              <span class="april-20241">
+              <span class="text-5-1">
                 15 April 2024
               </span>
             </div>
-            <div class="container-9">
-              <div class="menteri-pemuda-dan-olahraga-terlibat-dalam-kasus-pencucian-uang-1">
+            <div class="rectangle-2-2">
+              <div class="text-6">
                 Menteri Pemuda dan Olahraga Terlibat dalam Kasus Pencucian Uang
               </div>
-              <span class="maret-20241">
+              <span class="text-6-1">
                 8 Maret 2024
               </span>
             </div>
-            <div class="container-10">
-              <div class="menteri-pemuda-dan-olahraga-terlibat-dalam-kasus-pencucian-uang-2">
+            <div class="rectanngle-2-3">
+              <div class="text-7">
                 Menteri Pemuda dan Olahraga Terlibat dalam Kasus Pencucian Uang
               </div>
-              <span class="maret-20242">
+              <span class="text-7-1">
                 8 Maret 2024
               </span>
             </div>
-            <div class="container">
-              <div class="menteri-pemuda-dan-olahraga-terlibat-dalam-kasus-pencucian-uang-3">
+            <div class="rectangle-2-4">
+              <div class="text-8">
                 Menteri Pemuda dan Olahraga Terlibat dalam Kasus Pencucian Uang
               </div>
-              <span class="maret-20243">
+              <span class="text-8-1">
                 8 Maret 2024
               </span>
             </div>
-            <div class="container-1">
-              <div class="menteri-pemuda-dan-olahraga-terlibat-dalam-kasus-pencucian-uang-4">
+            <div class="rectangle-2-5">
+              <div class="text-9">
                 Menteri Pemuda dan Olahraga Terlibat dalam Kasus Pencucian Uang
               </div>
-              <span class="maret-20244">
+              <span class="text-9-1">
                 8 Maret 2024
               </span>
             </div>
-            <div class="container-3">
-              <div class="menteri-pemuda-dan-olahraga-terlibat-dalam-kasus-pencucian-uang">
+            <div class="rectangle-2-6">
+              <div class="text-10">
                 Menteri Pemuda dan Olahraga Terlibat dalam Kasus Pencucian Uang
               </div>
-              <span class="maret-2024">
+              <span class="text-10-1">
                 8 Maret 2024
               </span>
             </div>
-            <div class="rectangle-13">
+            <div class="rectangle-3">
             </div>
           </div>
     </body>

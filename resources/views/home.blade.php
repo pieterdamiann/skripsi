@@ -18,10 +18,10 @@
     </head>
     <body>
         <div class="home">
-            <div class="container-10">
-              <div class="logo-11">
+            <div class="navbar">
+              <div class="logo1">
               </div>
-              <div class="container-13">
+              <div class="rbutton">
                 <div class="berita">
                   <a href="/berita">Berita</a>
                 </div>
@@ -35,7 +35,7 @@
                   <a href="/tentangkami">Tentang Kami</a>
                 </div>
                 <a class="masuk" href="login">
-                  <div class="group-31">
+                  <div class="rectangle-login">
                     <span class="login">
                       Login
                     </span>
@@ -46,16 +46,16 @@
             <div class="berita-1">
               Berita
             </div>
-            <div class="pop-up-1">
-              <div class="presiden-dan-wakil-presiden-periode-20242029">
+            <div class="rectangle-1">
+              <div class="text-1">
                 Presiden dan Wakil Presiden <br />
                 Periode 2024 - 2029
               </div>
-              <div class="container-6">
-                <img class="mask-group-1" src="/assets/prabowo.jpg" />
-                <img class="mask-group" src="/assets/gibran.jpg" />
+              <div class="rectangle-1-1">
+                <img class="mask" src="/assets/prabowo.jpg" />
+                <img class="mask-1" src="/assets/gibran.jpg" />
               </div>
-              <span class="prabowo-sugianto-kphgibran-rakabuming-raka-bsc">
+              <span class="text-2">
                 Prabowo Sugianto<br />
                 &amp;<br />
                 K. P. H. Gibran Rakabuming Raka, B.Sc.
@@ -64,32 +64,32 @@
             <div class="tentang-pemilu-1">
               Tentang Pemilu
             </div>
-            <div class="container-1">
-              <div class="group-37">
-                <div class="warna-pada-surat-suara-pemilu">
+            <div class="rectangle-2">
+              <div class="group-2-1">
+                <div class="text-3">
                   Warna Pada Surat<br />
                   Suara Pemilu
                 </div>
-                <div class="container-12">
-                  <div class="mask-group-2">
+                <div class="rectangle-2-1-1">
+                  <div class="mask-3">
                     <img class="ellipse-15" src="../assets/vectors/ellipse157_x2.svg" />
-                    <div class="kpu-logo-5">
+                    <div class="kpu-logo">
                     </div>
-                    <div class="dprd-kabupaten-kota">
+                    <div class="text-4">
                       DPRD KABUPATEN/ KOTA
                     </div>
-                    <div class="rectangle-15">
+                    <div class="rectangle-2-1-2">
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="group-43">
-                <span class="dimana-lokasi-saya-dapat-mencoblos">
+              <div class="rectangle-2-2">
+                <span class="text-5">
                   Dimana lokasi saya dapat mencoblos?
                 </span>
               </div>
-              <div class="container-9">
-                <span class="apa-yang-perlu-dipersiapkan-agar-bisa-terdaftar">
+              <div class="rectangle-2-3">
+                <span class="text-6">
                   Apa yang Perlu dipersiapkan agar bisa terdaftar?
                 </span>
               </div>
@@ -97,28 +97,28 @@
             <div class="partai-1">
               Partai
             </div>
-            <div class="container-11">
-              <div class="container">
+            <div class="rectangle-3">
+              <div class="rectangle-3-1">
                 <div class="pdip">
                 </div>
               </div>
-              <div class="container-5">
+              <div class="rectangle-3-2">
                 <div class="gerindra">
                 </div>
               </div>
-              <div class="container-3">
+              <div class="rectangle-3-3">
                 <div class="golkar">
                 </div>
               </div>
-              <div class="container-2">
+              <div class="rectangle-3-4">
                 <div class="psi">
                 </div>
               </div>
-              <div class="container-8">
+              <div class="rectangle-3-5">
                 <div class="perindo">
                 </div>
               </div>
-              <div class="container-7">
+              <div class="rectangle-3-6">
                 <img class="arrow-1" src="../assets/vectors/arrow11_x2.svg" />
                 <span class="lainnya">
                   Lainnya
@@ -128,13 +128,13 @@
             <div class="tentang-kami-1">
               Tentang Kami
             </div>
-            <div class="container-4">
-                <img class="logo-12" src="/assets/pemiluhijau.png" />
+            <div class="rectangle-4">
+                <img class="logo-2" src="/assets/pemiluhijau.png" />
               <div class="desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </div>
-            <div class="rectangle-13">
+            <div class="rectangle-5">
             </div>
           </div>
     </body>
