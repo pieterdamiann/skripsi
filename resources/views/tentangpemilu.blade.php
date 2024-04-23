@@ -18,79 +18,65 @@
     </head>
     <body>
     <div class="tentang-pemilu">
-        <div class="container-7">
-            <div class="logo-11"></div>
-            <div class="container-8">
-                <div class="berita">
-                    Berita
+        <div class="navbar">
+            <div class="logo1">
+            </div>
+            <div class="rbutton">
+              <div class="berita">
+                <a href="/berita">Berita</a>
+              </div>
+              <div class="tentang-pemilu-1">
+                <a href="/tentangpemilu">Tentang Pemilu</a>
+              </div>
+              <div class="partai">
+                <a href="/partai">Partai</a>
+              </div>
+              <div class="tentang-kami">
+                <a href="/tentangkami">Tentang Kami</a>
+              </div>
+              <a class="masuk" href="login">
+                <div class="rectangle-login">
+                  <span class="login">
+                    Login
+                  </span>
                 </div>
-            <div class="tentang-pemilu-2">
-                Tentang Pemilu
+              </a>
             </div>
-            <div class="partai">
-                Partai
-            </div>
-            <div class="tentang-kami">
-                Tentang Kami
-            </div>
-            <div class="group-36">
-                <span class="logout">
-                Logout
-                </span>
-            </div>
-            </div>
-        </div>
-        <div class="tentang-pemilu-1">
+          </div>
+        <div class="tentang-pemilu-2">
             Tentang Pemilu
         </div>
-        <div class="container-1">
-            <div class="group-39">
+        <div class="rectangle-1">
+            <div class="rectangle-1-1">
             <div class="warna-pada-surat-suara-pemilu">
                 Warna Pada Surat<br />
                 Suara Pemilu
             </div>
-            <div class="container-2">
+            <div class="rectangle-1-2">
+                <img class="ellipse"/>
                 <div class="mask-group">
-                <img class="ellipse-15" src="../assets/vectors/ellipse152_x2.svg" />
-                <div class="kpu-logo-6">
-                </div>
-                <div class="dprd-kabupaten-kota">
-                    DPRD KABUPATEN/ KOTA
-                </div>
-                <div class="rectangle-15">
-                </div>
+                    <div class="kpu-logo">
+                    </div>
+                    <div class="dprd-kabupaten-kota">
+                        DPRD KABUPATEN/ KOTA
+                    </div>
+                    <div class="rectangle-1-3">
+                    </div>
                 </div>
             </div>
             </div>
-            <div class="group-41">
+            <div class="rectangle-2">
             <span class="dimana-lokasi-saya-dapat-mencoblos">
                 Dimana lokasi saya dapat mencoblos?
             </span>
             </div>
-            <div class="container-5">
+            <div class="rectangle-3">
             <span class="apa-yang-perlu-dipersiapkan-agar-bisa-terdaftar">
                 Apa yang Perlu dipersiapkan agar bisa terdaftar?
             </span>
             </div>
         </div>
-        <div class="container-6">
-            <div class="container-3">
-            <span class="bagaimana-cara-mencoblos-yang-sah">
-                Bagaimana Cara Mencoblos yang Sah?
-            </span>
-            </div>
-            <div class="container-4">
-            <span class="dimana-lokasi-saya-dapat-mencoblos-1">
-                Dimana lokasi saya dapat mencoblos?
-            </span>
-            </div>
-            <div class="container">
-            <span class="apa-yang-perlu-dipersiapkan-agar-bisa-terdaftar-1">
-                Apa yang Perlu dipersiapkan agar bisa terdaftar?
-            </span>
-            </div>
-        </div>
-        <div class="rectangle-13">
+        <div class="rectangle-4">
         </div>
     </div>
     </body>

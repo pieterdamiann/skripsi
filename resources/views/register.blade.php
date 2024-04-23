@@ -18,58 +18,58 @@
     </head>
     <body>
         <div class="register-page">
-            <div class="container-4">
-              <div class="container-1">
-                <div class="logo-13">
+            <div class="rectangle-1">
+              <div class="rectangle-1-1">
+                <div class="logo">
                 </div>
                 <div class="selamat-datang">
                   Selamat Datang!
                 </div>
               </div>
-              <div class="group-25">
+              <div class="rectangle-1-2">
                 <div class="nama-depan">
                   Nama Depan
                 </div>
-                <input type="text" class="rectangle-4165"></input>
+                <input type="text" class="rectangle-1-2-1"></input>
               </div>
-              <div class="group-28">
+              <div class="rectangle-1-3">
                 <div class="nama-belakang">
                   Nama Belakang
                 </div>
-                <input type="text" class="rectangle-41652"></input>
+                <input type="text" class="rectangle-1-3-1"></input>
               </div>
-              <div class="group-29">
+              <div class="rectangle-1-4">
                 <div class="email">
                   Email
                 </div>
-                <input type="text" class="rectangle-41653"></input>
+                <input type="text" class="rectangle-1-4-1"></input>
               </div>
-              <div class="group-30">
+              <div class="rectangle-1-5">
                 <div class="kata-sandi">
                   Kata sandi
                 </div>
-                <input type="password" class="container"></input>
+                <input type="password" class="rectangle-1-5-1"></input>
               </div>
-              <div class="group-24">
+              <div class="rectangle-1-6">
                 <div class="konfirmasi-kata-sandi">
                   Konfirmasi Kata sandi
                 </div>
-                <input type="password" class="container-3"></input>
+                <input type="password" class="rectangle-1-6-1"></input>
               </div>
-              <div class="group-27">
+              <div class="rectangle-1-7">
                 <span class="daftar">
                   Daftar
                 </span>
               </div>
-              <div class="container-2">
+              <div class="rectangle-2">
                 <div class="powered-by">
                   Powered by
                 </div>
-                <div class="binus-1">
+                <div class="binus">
                 </div>
               </div>
             </div>
-            <div class="kotak-suara-min-2">
+            <div class="kotak-suara">
             </div>
           </div>
     </body>

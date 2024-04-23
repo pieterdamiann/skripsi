@@ -18,50 +18,50 @@
     </head>
     <body>
         <div class="login-page">
-            <div class="container-3">
-              <div class="container-2">
-                <div class="logo-14">
+            <div class="rectangle-1">
+              <div class="rectangle-1-1">
+                <div class="logo">
                 </div>
                 <div class="selamat-datang">
                   Selamat Datang!
                 </div>
               </div>
-              <div class="group-25">
+              <div class="rectangle-1-2">
                 <div class="email">
                   Email
                 </div>
-                <input type="text" autocomplete="false" class="rectangle-4165"></input>
+                <input type="text" autocomplete="false" class="rectangle-1-2-1"></input>
               </div>
-              <div class="group-24">
+              <div class="rectangle-1-3">
                 <div class="kata-sandi">
                   Kata sandi
                 </div>
-                <input type="password" autocomplete="false" class="container-1"></input>
+                <input type="password" autocomplete="false" class="rectangle-1-3-1"></input>
               </div>
-              <div class="container-4">
-                <p class="lupa-kata-sandi-hubungi-kami">
+              <div class="rectangle-1-4">
+                <p class="text-1">
                     Lupa Kata Sandi?
                   </p>
-                  <a class="daftar" href="/register">
-                    <p class="belum-punya-akun-daftar">
+                  <a class="rectangle-1-5" href="/register">
+                    <p class="text-2">
                       Belum Punya Akun? Daftar
                     </p>
                   </a>
             </div>
-              <div class="group-27">
+              <div class="rectangle-2">
                 <span class="masuk">
                   Masuk
                 </span>
               </div>
-              <div class="container">
+              <div class="rectangle-3">
                 <div class="powered-by">
                   Powered by
                 </div>
-                <div class="binus-1">
+                <div class="binus">
                 </div>
               </div>
             </div>
-            <div class="kotak-suara-min-1">
+            <div class="kotak-suara">
             </div>
           </div>
     </body>

@@ -18,40 +18,42 @@
     </head>
     <body>
         <div class="tentang-kami">
-            <div class="container-1">
-              <div class="logo-11">
+          <div class="navbar">
+            <div class="logo1">
+            </div>
+            <div class="rbutton">
+              <div class="berita">
+                <a href="/berita">Berita</a>
               </div>
-              <div class="container">
-                <div class="berita">
-                  Berita
-                </div>
-                <div class="tentang-pemilu">
-                  Tentang Pemilu
-                </div>
-                <div class="partai">
-                  Partai
-                </div>
-                <div class="tentang-kami-1">
-                  Tentang Kami
-                </div>
-                <div class="group-35">
-                  <span class="logout">
-                    Logout
+              <div class="tentang-pemilu">
+                <a href="/tentangpemilu">Tentang Pemilu</a>
+              </div>
+              <div class="partai">
+                <a href="/partai">Partai</a>
+              </div>
+              <div class="tentang-kami-1">
+                <a href="/tentangkami">Tentang Kami</a>
+              </div>
+              <a class="masuk" href="login">
+                <div class="rectangle-login">
+                  <span class="login">
+                    Login
                   </span>
                 </div>
-              </div>
+              </a>
             </div>
+          </div>
             <div class="tentang-kami-2">
               Tentang Kami
             </div>
-            <div class="container-2">
-              <div class="logo-13">
+            <div class="rectangle-3">
+              <div class="logo-1">
               </div>
               <div class="desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </div>
-            <div class="rectangle-13">
+            <div class="rectangle-4">
             </div>
           </div>
     </body>
