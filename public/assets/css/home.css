@@ -317,7 +317,6 @@ body{
   margin: 0 72px 112px 118px;
   display: flex;
   flex-direction: row;
-  
   box-sizing: border-box;
 }
 .home .rectangle-3-1 {
@@ -464,7 +463,100 @@ body{
   margin-left: 20px;
   overflow-wrap: break-word;
 }
-.home .rectangle-5 {
+.rectangle-5 {
+  /* display: flex; */
+}
+.judul{
+  margin: 0 0 58px 115px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 48px;
+  color: #4F7B58;
+}
+.format{
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 115px;
+}
+.name{
+  margin: 0 24px 8px 24px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Roboto Slab';
+  font-weight: 400;
+  font-size: 23px;
+  color: #000000;
+}
+.rectangle-5-1 {
+  border-radius: 10px;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  padding-left: 20px;
+  margin-bottom: 40px;
+  font-size: 24px;
+  width: 1600px;
+  height: 54px;
+}
+.email{
+  margin: 0 24px 8px 24px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Roboto Slab';
+  font-weight: 400;
+  font-size: 23px;
+  color: #000000;
+}
+.rectangle-5-2 {
+  border-radius: 10px;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  padding-left: 20px;
+  font-size: 24px;
+  margin-bottom: 40px;
+  width: 1600px;
+  height: 54px;
+}
+.feedback{
+  margin: 0 24px 8px 24px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Roboto Slab';
+  font-weight: 400;
+  font-size: 23px;
+  color: #000000;
+}
+.rectangle-5-3 {
+  border-radius: 10px;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  padding-left: 20px;
+  font-size: 24px;
+  margin-bottom: 40px;
+  width: 1600px;
+  height: 154px;
+}
+.submit-1{
+  margin: 0 72px 112px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.submit-1-1{
+  width: 250px;
+  height: 50px;
+  font-size: 24px;
+  background-color: #4F7B58;
+  color: #ffffff;
+  border: 0;
+  border-radius: 10px;
+}
+.home .rectangle-6 {
   background: #4F7B58;
   width: 1920px;
   height: 230px;

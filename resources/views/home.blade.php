@@ -135,6 +135,27 @@
               </div>
             </div>
             <div class="rectangle-5">
+              <div class="judul">Kritik dan Saran</div>
+              <div class="format">
+                <div class="name">
+                  Name
+                </div>
+                <input type="text" autocomplete="false" class="rectangle-5-1"></input>
+                <div class="email">
+                  Email
+                </div>
+                <input type="text" autocomplete="false" class="rectangle-5-2"></input>
+                <div class="feedback">
+                  Kritik & Saran
+                </div>
+                <input type="text" autocomplete="false" class="rectangle-5-3"></input>
+                <div class="submit-1">
+                  <input type="submit" class="submit-1-1">
+                  </input>
+                </div>
+              </div>
+            </div>
+            <div class="rectangle-6">
             </div>
           </div>
     </body>

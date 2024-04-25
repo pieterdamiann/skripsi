@@ -292,33 +292,6 @@ body{
     font-size: 32px;
     color: #FFFFFF;
   }
-  .berita .rectangle-2-3 {
-    border-radius: 20px;
-    background: #4F7B58;
-    position: relative;
-    margin: 0 185px 32px 184px;
-    display: flex;
-    flex-direction: column;
-    padding: 43px 55.2px 47.5px 43px;
-    box-sizing: border-box;
-  }
-  .berita .text-7 {
-    margin-bottom: 5.5px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Inter';
-    font-weight: 600;
-    font-size: 44px;
-    color: #FFFFFF;
-  }
-  .berita .text-7-1 {
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Inter';
-    font-weight: 300;
-    font-size: 32px;
-    color: #FFFFFF;
-  }
   .berita .rectangle-2-4 {
     border-radius: 20px;
     background: #4F7B58;

@@ -12,13 +12,13 @@
 
         <!-- Styles -->
         {{-- <link rel="stylesheet" href="{{('assets/css/partai.css')}}" type="text/css"> --}}
-        <link rel="stylesheet" href="{{('assets/css/partai.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{('assets/css/suratpemilu.css')}}" type="text/css">
         <style>
             
         </style>
     </head>
     <body>
-        <div class="partai">
+        <div class="tentang-pemilu-1">
           <div class="navbar">
             <div class="logo1">
             </div>
@@ -29,7 +29,7 @@
               <div class="tentang-pemilu">
                 <a href="/tentangpemilu">Tentang Pemilu</a>
               </div>
-              <div class="partai-1">
+              <div class="partai">
                 <a href="/partai">Partai</a>
               </div>
               <div class="tentang-kami">
@@ -44,56 +44,30 @@
               </a>
             </div>
           </div>
-            <div class="partai-yang-tergabung-dalam-pemilu-2024">
-              Partai yang Tergabung dalam Pemilu 2024
-            </div>
-            <div class="rectangle-1">
-              <div class="rectangle-1-1">
-                <div class="pkb">
-                </div>
-                <div class="gerindra">
-                </div>
-                <div class="pdip">
-                </div>
-                <div class="golkar">
-                </div>
-                <div class="nasdem">
-                </div>
-              </div>
-              <div class="rectangle-1-2">
-                <div class="buruh">
-                </div>
-                <div class="gelora">
-                </div>
-                <div class="pks">
-                </div>
-                <div class="pkn">
-                </div>
-                <div class="hanura">
-                </div>
-              </div>
-              <div class="rectangle-1-3">
-                <div class="garuda">
-                </div>
-                <div class="pan">
-                </div>
-                <div class="pbb">
-                </div>
-                <div class="demokrat">
-                </div>
-                <div class="psi">
-                </div>
-              </div>
-              <div class="rectangle-1-4">
-                <div class="perindo">
-                </div>
-                <div class="ppp">
-                </div>
-                <div class="ummat">
-                </div>
-              </div>
+            <div class="tentang-pemilu-2">
+              Tentang Pemilu
             </div>
             <div class="rectangle-2">
+              <div class="judul">
+                Macam - Macam Warna Surat Suara pada Pemilu 2024 dan Tujuannya
+              </div>
+              <div class="desc">
+                Pada pemilu 2024 kali ini, terdapat 5 macam surat suara yang dibedakan menurut warnanya masing - masing, berikut adalah contoh surat suara dan juga jenis warnanya
+              </div>
+              <div class="rectangle-2-1">
+                <div class="gambar">
+                  <img class="desc-surat" src="/assets/suratpemilu.png"/>
+                </div>
+              </div>
+            </div>
+              <div class="rectangle-3">
+                <a class="back" href="tentangpemilu">
+                <span class="lainnya">
+                  Lainnya
+                </span>
+                </a>
+              </div>
+            <div class="rectangle-4">
             </div>
           </div>
     </body>

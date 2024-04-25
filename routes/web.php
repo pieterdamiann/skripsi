@@ -26,6 +26,14 @@ Route::get('/tentangpemilu', function () {
     return view('tentangpemilu');
 });
 
+Route::get('/suratpemilu', function () {
+    return view('suratpemilu');
+});
+
+Route::get('/tentangpemilu', function () {
+    return view('tentangpemilu');
+});
+
 Route::get('/tentangkami', function () {
     return view('tentangkami');
 });

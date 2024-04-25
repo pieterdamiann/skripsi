@@ -96,14 +96,6 @@
                 8 Maret 2024
               </span>
             </div>
-            <div class="rectanngle-2-3">
-              <div class="text-7">
-                Menteri Pemuda dan Olahraga Terlibat dalam Kasus Pencucian Uang
-              </div>
-              <span class="text-7-1">
-                8 Maret 2024
-              </span>
-            </div>
             <div class="rectangle-2-4">
               <div class="text-8">
                 Menteri Pemuda dan Olahraga Terlibat dalam Kasus Pencucian Uang

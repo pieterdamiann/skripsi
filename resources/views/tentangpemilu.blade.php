@@ -47,33 +47,35 @@
             Tentang Pemilu
         </div>
         <div class="rectangle-1">
-            <div class="rectangle-1-1">
-            <div class="warna-pada-surat-suara-pemilu">
-                Warna Pada Surat<br />
-                Suara Pemilu
-            </div>
-            <div class="rectangle-1-2">
-                <img class="ellipse"/>
-                <div class="mask-group">
-                    <div class="kpu-logo">
-                    </div>
-                    <div class="dprd-kabupaten-kota">
-                        DPRD KABUPATEN/ KOTA
-                    </div>
-                    <div class="rectangle-1-3">
+            <a class="table-1" href="suratpemilu">
+              <div class="rectangle-1-1">
+                <div class="warna-pada-surat-suara-pemilu">
+                    Warna Pada Surat<br />
+                    Suara Pemilu
+                </div>
+                <div class="rectangle-1-2">
+                    <img class="ellipse"/>
+                    <div class="mask-group">
+                        <div class="kpu-logo">
+                        </div>
+                        <div class="dprd-kabupaten-kota">
+                            DPRD KABUPATEN/ KOTA
+                        </div>
+                        <div class="rectangle-1-3">
+                        </div>
                     </div>
                 </div>
-            </div>
-            </div>
+              </div>
+            </a>
             <div class="rectangle-2">
-            <span class="dimana-lokasi-saya-dapat-mencoblos">
-                Dimana lokasi saya dapat mencoblos?
-            </span>
+              <span class="dimana-lokasi-saya-dapat-mencoblos">
+                  Dimana lokasi saya dapat mencoblos?
+              </span>
             </div>
             <div class="rectangle-3">
-            <span class="apa-yang-perlu-dipersiapkan-agar-bisa-terdaftar">
-                Apa yang Perlu dipersiapkan agar bisa terdaftar?
-            </span>
+              <span class="apa-yang-perlu-dipersiapkan-agar-bisa-terdaftar">
+                  Apa yang Perlu dipersiapkan agar bisa terdaftar?
+              </span>
             </div>
         </div>
         <div class="rectangle-4">
