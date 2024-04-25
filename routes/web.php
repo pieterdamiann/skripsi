@@ -41,3 +41,7 @@ Route::get('/tentangkami', function () {
 Route::get('/warnakartu', function () {
     return view('warnakartu');
 });
+
+Route::get('/lokasicoblos', function () {
+    return view('lokasicoblos');
+});

@@ -70,17 +70,8 @@
                   Warna Pada Surat<br />
                   Suara Pemilu
                 </div>
-                <div class="rectangle-2-1-1">
-                  <div class="mask-3">
-                    <img class="ellipse-15" src="../assets/vectors/ellipse157_x2.svg" />
-                    <div class="kpu-logo">
-                    </div>
-                    <div class="text-4">
-                      DPRD KABUPATEN/ KOTA
-                    </div>
-                    <div class="rectangle-2-1-2">
-                    </div>
-                  </div>
+                <div class="judul-surat">
+                  <img src="/assets/judulsurat.png" class="gambar">
                 </div>
               </div>
               <div class="rectangle-2-2">

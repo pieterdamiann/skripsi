@@ -207,63 +207,15 @@ body{
   font-size: 44px;
   color: #FFFFFF;
 }
-.home .rectangle-2-1-1 {
-  border-radius: 32px;
-  border: 15px solid #AAAAAA;
-  background: #FFFFFF;
-  position: relative;
-  margin-left: 0.2px;
-  display: flex;
-  flex-direction: row;
+/* .judul-surat{
+  width: 1px;
+  height: 2px;
+  align-items: center;
+} */
+.gambar{
+  width: 200px;
+  height: 300px;
   justify-content: center;
-  padding: 5px 7.9px 10.7px 8px;
-  width: 166.2px;
-  box-sizing: border-box;
-}
-.home .mask-3 {
-  border-radius: 20px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: 49.1px 5.8px 0 5.2px;
-  width: 150.3px;
-  height: fit-content;
-  box-sizing: border-box;
-}
-.home .ellipse-15 {
-  position: absolute;
-  left: -88.8px;
-  top: -68.1px;
-  width: 241.9px;
-  height: 171.3px;
-}
-.home .kpu-logo {
-  background: url('/assets/kpulogo.png') 50% / cover no-repeat;
-  position: relative;
-  margin: 0 12.4px 35.7px 12.4px;
-  align-self: flex-start;
-  width: 27.8px;
-  height: 35.2px;
-}
-.home .text-4 {
-  position: relative;
-  margin: 0 0.2px 6.8px 0;
-  display: inline-block;
-  align-self: center;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 700;
-  font-size: 13px;
-  color: #000000;
-}
-.home .rectangle-2-1-2 {
-  border-radius: 0 0 10px 10px;
-  background: #039E00;
-  position: relative;
-  width: 139.3px;
-  height: 50px;
-  margin: 0 0 -12px 0;
 }
 .home .rectangle-2-2 {
   border-radius: 20px;
@@ -553,8 +505,9 @@ body{
   font-size: 24px;
   background-color: #4F7B58;
   color: #ffffff;
-  border: 0;
+  border: 10px;
   border-radius: 10px;
+  border-color: #000000;
 }
 .home .rectangle-6 {
   background: #4F7B58;
