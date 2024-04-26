@@ -19,8 +19,8 @@
     <body>
         <div class="berita">
           <div class="navbar">
-            <div class="logo1">
-            </div>
+            <a class="logo1" href="/">
+            </a>
             <div class="rbutton">
               <div class="berita1">
                 <a href="/berita">Berita</a>

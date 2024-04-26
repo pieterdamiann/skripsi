@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/home', function () {
+    return view('home');
+});
+
 Route::get('/berita', function () {
     return view('berita');
 });
@@ -44,4 +48,8 @@ Route::get('/warnakartu', function () {
 
 Route::get('/lokasicoblos', function () {
     return view('lokasicoblos');
+});
+
+Route::get('/persiapan', function () {
+    return view('persiapan');
 });

@@ -1,0 +1,51 @@
+
+body{
+  margin: 0 0 0 0;
+  display: flex;
+  position: relative;
+  overflow-x: hidden;
+}
+.tentang-pemilu-3 {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding-top: 59px;
+  width: 1920px;
+  box-sizing: border-box;
+}
+.tentang-pemilu-3 .maintenance {
+  border-radius: 20px;
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 33px 15px 33px;
+  box-sizing: border-box;
+}
+.tentang-pemilu-3 .logo1 {
+  background: url('/assets/pemiluhijau.png') 50% / cover no-repeat;
+  width: 233px;
+  height: 129px;
+}
+.tentang-pemilu-3 .icon{
+  width: 500px;
+  height: 500px;
+}
+.tentang-pemilu-3 .title{
+  margin: 46px 0 20px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000;
+}
+.tentang-pemilu-3 .subtitle{
+  margin: 0 0 20px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Roboto Slab';
+  font-weight: 500;
+  font-size: 48px;
+  color: #000000;

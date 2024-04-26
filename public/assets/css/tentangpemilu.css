@@ -25,6 +25,10 @@ body{
   width: 173px;
   height: 96px;
 }
+.logo1{
+  text-decoration: none;
+  color: #FFFFFF;
+}
 .tentang-pemilu .rbutton {
   margin: 7px 0 17px 0;
   display: flex;
@@ -156,6 +160,10 @@ body{
   justify-content: center;
   margin: 10px 0 10px 0;
 }
+.table-2{
+  text-decoration: none;
+  color: #FFFFFF;
+}
 .tentang-pemilu .rectangle-2 {
   border-radius: 20px;
   background: #4F7B58;
@@ -174,6 +182,10 @@ body{
   font-family: 'Inter';
   font-weight: 700;
   font-size: 44px;
+  color: #FFFFFF;
+}
+.table-3{
+  text-decoration: none;
   color: #FFFFFF;
 }
 .tentang-pemilu .rectangle-3 {

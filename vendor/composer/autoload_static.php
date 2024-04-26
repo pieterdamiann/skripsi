@@ -359,8 +359,8 @@ class ComposerStaticInit8e61a6a6607b6a62d5f38a26422d0e50
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -1595,6 +1595,7 @@ class ComposerStaticInit8e61a6a6607b6a62d5f38a26422d0e50
         'Illuminate\\Auth\\RequestGuard' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/RequestGuard.php',
         'Illuminate\\Auth\\SessionGuard' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/SessionGuard.php',
         'Illuminate\\Auth\\TokenGuard' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/TokenGuard.php',
+        'Illuminate\\Broadcasting\\AnonymousEvent' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Broadcasting/AnonymousEvent.php',
         'Illuminate\\Broadcasting\\BroadcastController' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Broadcasting/BroadcastController.php',
         'Illuminate\\Broadcasting\\BroadcastEvent' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php',
         'Illuminate\\Broadcasting\\BroadcastException' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Broadcasting/BroadcastException.php',
@@ -5506,8 +5507,11 @@ class ComposerStaticInit8e61a6a6607b6a62d5f38a26422d0e50
         'Spatie\\Backtrace\\Arguments\\Reducers\\StringableArgumentReducer' => __DIR__ . '/..' . '/spatie/backtrace/src/Arguments/Reducers/StringableArgumentReducer.php',
         'Spatie\\Backtrace\\Arguments\\Reducers\\SymphonyRequestArgumentReducer' => __DIR__ . '/..' . '/spatie/backtrace/src/Arguments/Reducers/SymphonyRequestArgumentReducer.php',
         'Spatie\\Backtrace\\Backtrace' => __DIR__ . '/..' . '/spatie/backtrace/src/Backtrace.php',
-        'Spatie\\Backtrace\\CodeSnippet' => __DIR__ . '/..' . '/spatie/backtrace/src/CodeSnippet.php',
-        'Spatie\\Backtrace\\File' => __DIR__ . '/..' . '/spatie/backtrace/src/File.php',
+        'Spatie\\Backtrace\\CodeSnippets\\CodeSnippet' => __DIR__ . '/..' . '/spatie/backtrace/src/CodeSnippets/CodeSnippet.php',
+        'Spatie\\Backtrace\\CodeSnippets\\FileSnippetProvider' => __DIR__ . '/..' . '/spatie/backtrace/src/CodeSnippets/FileSnippetProvider.php',
+        'Spatie\\Backtrace\\CodeSnippets\\LaravelSerializableClosureSnippetProvider' => __DIR__ . '/..' . '/spatie/backtrace/src/CodeSnippets/LaravelSerializableClosureSnippetProvider.php',
+        'Spatie\\Backtrace\\CodeSnippets\\NullSnippetProvider' => __DIR__ . '/..' . '/spatie/backtrace/src/CodeSnippets/NullSnippetProvider.php',
+        'Spatie\\Backtrace\\CodeSnippets\\SnippetProvider' => __DIR__ . '/..' . '/spatie/backtrace/src/CodeSnippets/SnippetProvider.php',
         'Spatie\\Backtrace\\Frame' => __DIR__ . '/..' . '/spatie/backtrace/src/Frame.php',
         'Spatie\\FlareClient\\Api' => __DIR__ . '/..' . '/spatie/flare-client-php/src/Api.php',
         'Spatie\\FlareClient\\Concerns\\HasContext' => __DIR__ . '/..' . '/spatie/flare-client-php/src/Concerns/HasContext.php',

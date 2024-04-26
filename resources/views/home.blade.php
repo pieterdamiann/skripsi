@@ -19,8 +19,8 @@
     <body>
         <div class="home">
             <div class="navbar">
-              <div class="logo1">
-              </div>
+              <a class="logo1" href="/">
+              </a>
               <div class="rbutton">
                 <div class="berita">
                   <a href="/berita">Berita</a>
@@ -65,25 +65,31 @@
               Tentang Pemilu
             </div>
             <div class="rectangle-2">
-              <div class="group-2-1">
-                <div class="text-3">
-                  Warna Pada Surat<br />
-                  Suara Pemilu
+              <a class="table-1" href="suratpemilu">
+                <div class="rectangle-2-1">
+                  <div class="text-3">
+                    Warna Pada Surat<br />
+                    Suara Pemilu
+                  </div>
+                  <div class="judul-surat">
+                    <img src="/assets/judulsurat.png" class="gambar">
+                  </div>
                 </div>
-                <div class="judul-surat">
-                  <img src="/assets/judulsurat.png" class="gambar">
+              </a>
+              <a class="table-2" href="lokasicoblos">
+                <div class="rectangle-2-2">
+                  <span class="text-5">
+                    Dimana lokasi saya dapat mencoblos?
+                  </span>
                 </div>
-              </div>
-              <div class="rectangle-2-2">
-                <span class="text-5">
-                  Dimana lokasi saya dapat mencoblos?
-                </span>
-              </div>
-              <div class="rectangle-2-3">
-                <span class="text-6">
-                  Apa yang Perlu dipersiapkan agar bisa terdaftar?
-                </span>
-              </div>
+              </a>
+              <a class="table-3" href="persiapan">
+                <div class="rectangle-2-3">
+                  <span class="text-6">
+                    Apa yang Perlu dipersiapkan agar bisa terdaftar?
+                  </span>
+                </div>
+              </a>
             </div>
             <div class="partai-1">
               Partai

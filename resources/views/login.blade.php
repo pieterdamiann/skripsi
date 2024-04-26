@@ -20,8 +20,8 @@
         <div class="login-page">
             <div class="rectangle-1">
               <div class="rectangle-1-1">
-                <div class="logo">
-                </div>
+                <a class="logo1" href="/">
+                </a>
                 <div class="selamat-datang">
                   Selamat Datang!
                 </div>

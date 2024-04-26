@@ -19,8 +19,8 @@
     <body>
     <div class="tentang-pemilu">
         <div class="navbar">
-            <div class="logo1">
-            </div>
+            <a class="logo1" href="/">
+            </a>
             <div class="rbutton">
               <div class="berita">
                 <a href="/berita">Berita</a>
@@ -58,16 +58,20 @@
                 </div>
               </div>
             </a>
-            <div class="rectangle-2">
-              <span class="dimana-lokasi-saya-dapat-mencoblos">
-                  Dimana lokasi saya dapat mencoblos?
-              </span>
-            </div>
-            <div class="rectangle-3">
-              <span class="apa-yang-perlu-dipersiapkan-agar-bisa-terdaftar">
-                  Apa yang Perlu dipersiapkan agar bisa terdaftar?
-              </span>
-            </div>
+            <a class="table-2" href="lokasicoblos">
+              <div class="rectangle-2">
+                <span class="dimana-lokasi-saya-dapat-mencoblos">
+                    Dimana lokasi saya dapat mencoblos?
+                </span>
+              </div>
+            </a>
+            <a class="table-3" href="persiapan">
+              <div class="rectangle-3">
+                <span class="apa-yang-perlu-dipersiapkan-agar-bisa-terdaftar">
+                    Apa yang Perlu dipersiapkan agar bisa terdaftar?
+                </span>
+              </div>
+            </a>
         </div>
         <div class="rectangle-4">
         </div>

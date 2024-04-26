@@ -20,8 +20,8 @@
     <body>
         <div class="partai">
           <div class="navbar">
-            <div class="logo1">
-            </div>
+            <a class="logo1" href="/">
+            </a>
             <div class="rbutton">
               <div class="berita">
                 <a href="/berita">Berita</a>

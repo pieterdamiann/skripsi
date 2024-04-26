@@ -19,8 +19,8 @@
     <body>
         <div class="tentang-kami">
           <div class="navbar">
-            <div class="logo1">
-            </div>
+            <a class="logo1" href="/">
+            </a>
             <div class="rbutton">
               <div class="berita">
                 <a href="/berita">Berita</a>
