@@ -50,7 +50,11 @@
               <div class="logo-1">
               </div>
               <div class="desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Pemilu Hijau adalah website yang mengusung tentang pemilu yang bertujuan agar
+                pengguna dapat mendapatkan informasi seputar pemilu, yang berupa berita-berita terbaru
+                pengetahuan tentang pemilu itu sendiri, partai yang tergabung dalam periode pemilu.
+                Dengan adanya website ini, diharapkan dapat mengurangi bahilo yang sering bertebaran
+                dijalanan menjelang pemilu agar tidak menambah limbah sampah.
               </div>
             </div>
             <div class="rectangle-4">
