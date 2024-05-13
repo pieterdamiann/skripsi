@@ -18,6 +18,7 @@
     </head>
     <body>
         <div class="home">
+          <div class="rectangle">
             <div class="navbar">
               <a class="logo1" href="/">
               </a>
@@ -34,13 +35,6 @@
                 <div class="tentang-kami">
                   <a href="/tentangkami">Tentang Kami</a>
                 </div>
-                <a class="masuk" href="login">
-                  <div class="rectangle-login">
-                    <span class="login">
-                      Login
-                    </span>
-                  </div>
-                </a>
               </div>
             </div>
             <div class="berita-1">
@@ -64,33 +58,33 @@
             <div class="tentang-pemilu-1">
               Tentang Pemilu
             </div>
-            <div class="rectangle-2">
-              <a class="table-1" href="suratpemilu">
-                <div class="rectangle-2-1">
-                  <div class="text-3">
-                    Warna Pada Surat<br />
-                    Suara Pemilu
+              <div class="rectangle-2">
+                <a class="table-1" href="suratpemilu">
+                  <div class="rectangle-2-1">
+                    <div class="text-3">
+                      Warna Pada Surat<br />
+                      Suara Pemilu
+                    </div>
+                    <div class="judul-surat">
+                      <img src="/assets/judulsurat.png" class="gambar">
+                    </div>
                   </div>
-                  <div class="judul-surat">
-                    <img src="/assets/judulsurat.png" class="gambar">
+                </a>
+                <a class="table-2" href="lokasicoblos">
+                  <div class="rectangle-2-2">
+                    <span class="text-5">
+                      Dimana lokasi saya dapat mencoblos?
+                    </span>
                   </div>
-                </div>
-              </a>
-              <a class="table-2" href="lokasicoblos">
-                <div class="rectangle-2-2">
-                  <span class="text-5">
-                    Dimana lokasi saya dapat mencoblos?
-                  </span>
-                </div>
-              </a>
-              <a class="table-3" href="persiapan">
-                <div class="rectangle-2-3">
-                  <span class="text-6">
-                    Apa yang Perlu dipersiapkan agar bisa terdaftar?
-                  </span>
-                </div>
-              </a>
-            </div>
+                </a>
+                <a class="table-3" href="persiapan">
+                  <div class="rectangle-2-3">
+                    <span class="text-6">
+                      Apa yang Perlu dipersiapkan agar bisa terdaftar?
+                    </span>
+                  </div>
+                </a>
+              </div>
             <div class="partai-1">
               Partai
             </div>
@@ -112,27 +106,24 @@
                 </div>
               </div>
               <div class="rectangle-3-5">
-                <div class="perindo">
-                </div>
-              </div>
-              <div class="rectangle-3-6">
-                <img class="arrow-1" src="../assets/vectors/arrow11_x2.svg" />
-                <span class="lainnya">
+                <div class="text">
                   Lainnya
-                </span>
+                </div>
               </div>
             </div>
             <div class="tentang-kami-1">
               Tentang Kami
             </div>
             <div class="rectangle-4">
-                <img class="logo-2" src="/assets/pemiluhijau.png" />
-              <div class="desc">
-                Pemilu Hijau adalah website yang mengusung tentang pemilu yang bertujuan agar
-                pengguna dapat mendapatkan informasi seputar pemilu, yang berupa berita-berita terbaru
-                pengetahuan tentang pemilu itu sendiri, partai yang tergabung dalam periode pemilu.
-                Dengan adanya website ini, diharapkan dapat mengurangi bahilo yang sering bertebaran
-                dijalanan menjelang pemilu agar tidak menambah limbah sampah.
+              <img class="logo-2" src="/assets/pemiluhijau2.png" />
+              <div class="desc-box">
+                <div class="desc">
+                  Pemilu Hijau adalah website yang mengusung tentang pemilu yang bertujuan agar
+                  pengguna dapat mendapatkan informasi seputar pemilu, yang berupa berita-berita terbaru
+                  pengetahuan tentang pemilu itu sendiri, partai yang tergabung dalam periode pemilu.
+                  Dengan adanya website ini, diharapkan dapat mengurangi bahilo yang sering bertebaran
+                  dijalanan menjelang pemilu agar tidak menambah limbah sampah.
+                </div>
               </div>
             </div>
             <div class="rectangle-5">
@@ -156,6 +147,7 @@
                 </div>
               </div>
             </div>
+          </div>
             <div class="rectangle-6">
             </div>
           </div>

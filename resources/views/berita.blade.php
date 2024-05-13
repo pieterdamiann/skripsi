@@ -18,6 +18,7 @@
     </head>
     <body>
         <div class="berita">
+          <div class="rectangle">
           <div class="navbar">
             <a class="logo1" href="/">
             </a>
@@ -34,21 +35,16 @@
               <div class="tentang-kami">
                 <a href="/tentangkami">Tentang Kami</a>
               </div>
-              <a class="masuk" href="login">
-                <div class="rectangle-login">
-                  <span class="login">
-                    Login
-                  </span>
-                </div>
-              </a>
             </div>
           </div>
+          <div class="rectangle--1">
             <div class="berita-2">
               Berita
             </div>
             <div class="text-1">
               HEAD NEWS
             </div>
+          </div>
             <div class="rectangle-1">
               <div class="rectangle-1-1">
                 <div class="text-2">
@@ -66,9 +62,16 @@
                 </span>
               </div>
               <div class="desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Selamat kepada Bapak Prabowo Subianto dan Bapak Gibran Rakabuming Raka 
+                atas terpilihnya sebagai Presiden dan Wakil Presiden. Kepemimpinan yang 
+                baru ini diharapkan menjadi tonggak baru dalam perjalanan bangsa 
+                Indonesia menuju kemajuan dan kesejahteraan yang lebih baik. Semoga visi 
+                dan komitmen yang telah disampaikan selama kampanye dapat diwujudkan 
+                dengan baik, dan semoga kebijaksanaan serta keputusan yang diambil 
+                mendapat dukungan dan kepercayaan dari seluruh rakyat Indonesia.
               </div>
             </div>
+            <div class="rectangle--2">
             <div class="berita-lainnya">
               Berita Lainnya
             </div>
@@ -120,6 +123,8 @@
                 8 Maret 2024
               </span>
             </div>
+          </div>
+          </div>
             <div class="rectangle-3">
             </div>
           </div>

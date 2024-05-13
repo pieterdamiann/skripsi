@@ -20,8 +20,11 @@
         <div class="register-page">
             <div class="rectangle-1">
               <div class="rectangle-1-1">
-                <a class="logo1" href="/">
-                </a>
+                <div class="rectangle-1-1-1">
+                  <a class="logo1" href="/admin+homepage">
+                  </a>
+                  <a class="text">For Admin</a>
+                </div>
                 <div class="selamat-datang">
                   Selamat Datang!
                 </div>
@@ -68,8 +71,6 @@
                 <div class="binus">
                 </div>
               </div>
-            </div>
-            <div class="kotak-suara">
             </div>
           </div>
     </body>

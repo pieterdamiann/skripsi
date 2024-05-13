@@ -5,7 +5,7 @@ body{
   overflow-x: hidden;
 }
 .register-page {
-  background: #4F7B58;
+  background: #133611;
   padding: 59px 100px;
   width: 1440px;
   box-sizing: border-box;
@@ -29,10 +29,23 @@ body{
   width: 744.6px;
   box-sizing: border-box;
 }
+.register-page .rectangle-1-1-1{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
 .register-page .logo1 {
   background: url('/assets/pemiluhijau.png') 50% / cover no-repeat;
   width: 233px;
   height: 129px;
+}
+.register-page .text{
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 30px;
+  color: #454141;
+  margin-top: -25px;
+  margin-left: 5px;
 }
 .register-page .selamat-datang {
   margin: 33px 0;
@@ -180,7 +193,7 @@ body{
 }
 .register-page .rectangle-1-7 {
   border-radius: 10px;
-  background: #4F7B58;
+  background: #133611;
   position: relative;
   margin-bottom: 67px;
   display: flex;
@@ -214,15 +227,7 @@ body{
   color: #000000;
 }
 .register-page .binus {
-  background: url('../assets/images/binus1.png') 50% / cover no-repeat;
+  background: url('../assets/binus.png') 50% / cover no-repeat;
   width: 126px;
   height: 76px;
-}
-.register-page .kotak-suara {
-  background: url('../assets/images/kotakSuaraMin2.png') 50% / cover no-repeat;
-  position: absolute;
-  right: 79px;
-  bottom: 37px;
-  width: 251px;
-  height: 324px;
 }

@@ -19,6 +19,7 @@
     </head>
     <body>
         <div class="tentang-pemilu-1">
+          <div class="rectangle">
           <div class="navbar">
             <a class="logo1" href="/">
             </a>
@@ -35,13 +36,6 @@
               <div class="tentang-kami">
                 <a href="/tentangkami">Tentang Kami</a>
               </div>
-              <a class="masuk" href="login">
-                <div class="rectangle-login">
-                  <span class="login">
-                    Login
-                  </span>
-                </div>
-              </a>
             </div>
           </div>
             <div class="tentang-pemilu-2">
@@ -60,6 +54,7 @@
                 </div>
               </div>
             </div>
+          </div>
               <div class="rectangle-3">
                 <a class="back" href="tentangpemilu">
                 <span class="lainnya">

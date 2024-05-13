@@ -1,0 +1,211 @@
+body{
+    margin: 0 0 0 0;
+    display: flex;
+    position: relative;
+  }
+  .home {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding-top: 59px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .home .rectangle{
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+  }
+  .home .navbar {
+    margin: 0 98px 143px 116px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1706px;
+    box-sizing: border-box;
+  }
+  .home .logo1 {
+    background: url('/assets/pemiluhijau3.svg') 50% / cover no-repeat;
+    width: 183.3px;
+    height: 90.76px;
+  }
+  .home .text{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 30px;
+    color: #133611;
+    margin: 25px 1050px 0 0;
+  }
+  .home .rbutton {
+    margin: 7px 140px 17px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .masuk {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .home .rectangle-login {
+    border-radius: 20px;
+    background: #133611;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 18px 0 18px 0.3px;
+    width: 135px;
+    box-sizing: border-box;
+  }
+  .home .login {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+  .home .rectangle-title{
+    margin: 0 98px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  .home .name {
+    margin: 0 118px 27px 118px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    color: #133611;
+  }
+  .home .rbutton-2 {
+    margin: 0 140px 17px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .tambah {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .home .rectangle-tambah {
+    border-radius: 20px;
+    background: #133611;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 18px 0 18px 0.3px;
+    width: 100px;
+    box-sizing: border-box;
+  }
+  .home .add {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+  .home .rectangle-2 {
+    margin: 0 118px 112px 118px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    column-gap: 32px;
+    width: 1565px;
+    box-sizing: border-box;
+    color: #133611;
+    border: solid;
+    background-color: #FFFFFF;
+    height: 1000px;
+  }
+  .table-1{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .home .rectangle-2-1 {
+    border-radius: 20px;
+    background: #133611;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 48.4px;
+    width: 500px ;
+    height: 200px;
+    box-sizing: border-box;
+  }
+  .home .text-3 {
+    display: inline-block;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+  .gambar{
+    width: 200px;
+    height: 300px;
+    justify-content: center;
+  }
+  .table-2{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .home .rectangle-2-2 {
+    border-radius: 20px;
+    background: #133611;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 48.4px;
+    width: 500px ;
+    height: 200px;
+    box-sizing: border-box;
+  }
+  .home .text-4 {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+  .table-3{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .home .rectangle-2-3 {
+    border-radius: 20px;
+    background: #133611;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 48.4px;
+    width: 500px ;
+    height: 200px;
+    box-sizing: border-box;
+  }
+  .home .text-5 {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+  .home .rectangle-6 {
+    background: #133611;
+    width: 1920px;
+    height: 230px;
+  }

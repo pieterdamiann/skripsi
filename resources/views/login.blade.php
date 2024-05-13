@@ -20,8 +20,11 @@
         <div class="login-page">
             <div class="rectangle-1">
               <div class="rectangle-1-1">
-                <a class="logo1" href="/">
-                </a>
+                <div class="rectangle-1-1-1">
+                  <a class="logo1" href="/admin+homepage">
+                  </a>
+                  <a class="text">For Admin</a>
+                </div>
                 <div class="selamat-datang">
                   Selamat Datang!
                 </div>
@@ -42,7 +45,7 @@
                 <p class="text-1">
                     Lupa Kata Sandi?
                   </p>
-                  <a class="rectangle-1-5" href="/register">
+                  <a class="rectangle-1-5" href="/admin+register">
                     <p class="text-2">
                       Belum Punya Akun? Daftar
                     </p>
@@ -60,8 +63,6 @@
                 <div class="binus">
                 </div>
               </div>
-            </div>
-            <div class="kotak-suara">
             </div>
           </div>
     </body>

@@ -24,9 +24,9 @@ body{
   box-sizing: border-box;
 }
 .tentang-pemilu-3 .logo1 {
-  background: url('/assets/pemiluhijau.png') 50% / cover no-repeat;
-  width: 233px;
-  height: 129px;
+  background: url('/assets/pemiluhijau3.svg') 50% / cover no-repeat;
+  width: 183.3px;
+  height: 90.76px;
 }
 .tentang-pemilu-3 .icon{
   width: 500px;

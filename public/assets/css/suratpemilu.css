@@ -20,6 +20,11 @@ body{
   width: 1920px;
   box-sizing: border-box;
 }
+.tentang-pemilu-1 .rectangle{
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+}
 .tentang-pemilu-1 .navbar {
   margin: 0 98px 143px 116px;
   display: flex;
@@ -29,12 +34,12 @@ body{
   box-sizing: border-box;
 }
 .tentang-pemilu-1 .logo1 {
-  background: url('/assets/pemiluhijau.png') 50% / cover no-repeat;
-  width: 173px;
-  height: 96px;
+  background: url('/assets/pemiluhijau3.svg') 50% / cover no-repeat;
+  width: 183.3px;
+  height: 90.76px;
 }
 .tentang-pemilu-1 .rbutton {
-  margin: 7px 0 17px 0;
+  margin: 7px 70px 17px 0;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
@@ -46,11 +51,11 @@ body{
   font-family: 'Inter';
   font-weight: 500;
   font-size: 30px;
-  color: #4F7B58;
+  color: #133611;
 }
 .tentang-pemilu-1 .berita a{
   text-decoration: none;
-  color: #4F7B58;
+  color: #133611;
 }
 .tentang-pemilu-1 .tentang-pemilu {
   margin: 18px 68.8px 18px 0;
@@ -59,11 +64,11 @@ body{
   font-family: 'Inter';
   font-weight: 700;
   font-size: 30px;
-  color: #4F7B58;
+  color: #133611;
 }
 .tentang-pemilu-1 .tentang-pemilu a{
   text-decoration: none;
-  color: #4F7B58;
+  color: #133611;
 }
 .tentang-pemilu-1 .partai {
   margin: 18px 65.7px 18px 0;
@@ -72,11 +77,11 @@ body{
   font-family: 'Inter';
   font-weight: 500;
   font-size: 30px;
-  color: #4F7B58;
+  color: #133611;
 }
 .tentang-pemilu-1 .partai a{
   text-decoration: none;
-  color: #4F7B58;
+  color: #133611;
 }
 .tentang-pemilu-1 .tentang-kami {
   margin: 18px 67.7px 18px 0;
@@ -85,49 +90,27 @@ body{
   font-family: 'Inter';
   font-weight: 500;
   font-size: 30px;
-  color: #4F7B58;
+  color: #133611;
 }
 .tentang-pemilu-1 .tentang-kami a{
   text-decoration: none;
-  color: #4F7B58;
-}
-.masuk {
-  text-decoration: none;
-  color: #ffffff;
-}
-.tentang-pemilu-1 .rectangle-login {
-  border-radius: 20px;
-  background: #4F7B58;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 18px 0 18px 0.3px;
-  width: 135px;
-  box-sizing: border-box;
-}
-.tentang-pemilu-1 .login {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 700;
-  font-size: 30px;
-  color: #FFFFFF;
+  color: #133611;
 }
 .tentang-pemilu-1 .tentang-pemilu-2 {
-  margin: 0 184px 33px 184px;
+  margin: 0 184px 33px 115px;
   display: inline-block;
   align-self: flex-start;
   overflow-wrap: break-word;
   font-family: 'Inter';
   font-weight: 700;
-  font-size: 64px;
-  color: #4F7B58;
+  font-size: 48px;
+  color: #133611;
 }
 .tentang-pemilu-1 .rectangle-2 {
   border-radius: 20px;
-  background: #4F7B58;
+  background: #133611;
   position: relative;
-  margin: 0 165px 83px 184px;
+  margin: 0 240px 83px 115px;
   display: flex;
   flex-direction: column;
   padding: 60.5px 94.2px 113px 68px;
@@ -141,7 +124,7 @@ body{
   overflow-wrap: break-word;
   font-family: 'Inter';
   font-weight: 700;
-  font-size: 44px;
+  font-size: 36px;
   color: #FFFFFF;
 }
 .tentang-pemilu-1 .desc {
@@ -166,7 +149,7 @@ body{
 }
 .tentang-pemilu-1 .rectangle-3 {
   border-radius: 20px;
-  background: #4F7B58;
+  background: #133611;
   position: relative;
   margin-bottom: 115px;
   display: flex;
@@ -181,11 +164,11 @@ body{
   overflow-wrap: break-word;
   font-family: 'Inter';
   font-weight: 700;
-  font-size: 44px;
+  font-size: 36px;
   color: #FFFFFF;
 }
 .tentang-pemilu-1 .rectangle-4 {
-  background: #4F7B58;
+  background: #133611;
   width: 1920px;
   height: 230px;
 }

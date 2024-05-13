@@ -14,14 +14,6 @@ Route::get('/berita', function () {
     return view('berita');
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
-
-Route::get('/register', function () {
-    return view('register');
-});
-
 Route::get('/partai', function () {
     return view('partai');
 });
@@ -52,4 +44,28 @@ Route::get('/lokasicoblos', function () {
 
 Route::get('/persiapan', function () {
     return view('persiapan');
+});
+
+Route::get('/admin+homepage', function () {
+    return view('adminhomepage');
+});
+
+Route::get('/admin+login', function () {
+    return view('login');
+});
+
+Route::get('/admin+register', function () {
+    return view('register');
+});
+
+Route::get('/admin+partai', function () {
+    return view('adpartai');
+});
+
+Route::get('/admin+tentangpemilu', function () {
+    return view('adtentangpemilu');
+});
+
+Route::get('/admin+berita', function () {
+    return view('adberita');
 });

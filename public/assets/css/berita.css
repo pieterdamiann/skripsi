@@ -12,6 +12,11 @@ body{
     width: 1920px;
     box-sizing: border-box;
   }
+  .berita .rectangle{
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+  }
   .berita .navbar {
     margin: 0 98px 143px 116px;
     display: flex;
@@ -21,12 +26,12 @@ body{
     box-sizing: border-box;
   }
   .berita .logo1 {
-    background: url('/assets/pemiluhijau.png') 50% / cover no-repeat;
-    width: 173px;
-    height: 96px;
+    background: url('/assets/pemiluhijau3.svg') 50% / cover no-repeat;
+    width: 183.3px;
+    height: 90.76px;
   }
   .berita .rbutton {
-    margin: 7px 0 17px 0;
+    margin: 7px 70px 17px 0;
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
@@ -38,11 +43,11 @@ body{
     font-family: 'Inter';
     font-weight: 700;
     font-size: 30px;
-    color: #4F7B58;
+    color: #133611;
   }
   .berita .berita1 a{
     text-decoration: none;
-    color: #4F7B58;
+    color: #133611;
   }
   .berita .tentang-pemilu {
     margin: 18px 68.8px 18px 0;
@@ -51,11 +56,11 @@ body{
     font-family: 'Inter';
     font-weight: 500;
     font-size: 30px;
-    color: #4F7B58;
+    color: #133611;
   }
   .berita .tentang-pemilu a{
     text-decoration: none;
-    color: #4F7B58;
+    color: #133611;
   }
   .berita .partai {
     margin: 18px 65.7px 18px 0;
@@ -64,11 +69,11 @@ body{
     font-family: 'Inter';
     font-weight: 500;
     font-size: 30px;
-    color: #4F7B58;
+    color: #133611;
   }
   .berita .partai a{
     text-decoration: none;
-    color: #4F7B58;
+    color: #133611;
   }
   .berita .tentang-kami {
     margin: 18px 67.7px 18px 0;
@@ -77,56 +82,38 @@ body{
     font-family: 'Inter';
     font-weight: 500;
     font-size: 30px;
-    color: #4F7B58;
+    color: #133611;
   }
   .berita .tentang-kami a{
     text-decoration: none;
-    color: #4F7B58;
+    color: #133611;
   }
-  .masuk {
-    text-decoration: none;
-    color: #ffffff;
-  }
-  .berita .rectangle-login {
-    border-radius: 20px;
-    background: #4F7B58;
-    position: relative;
+  .berita .rectangle--1{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 18px 0 18px 0.3px;
-    width: 135px;
-    box-sizing: border-box;
-  }
-  .berita .login {
-    overflow-wrap: break-word;
-    font-family: 'Inter';
-    font-weight: 700;
-    font-size: 30px;
-    color: #FFFFFF;
+    flex-direction: column;
   }
   .berita .berita-2 {
-    margin: 0 184px 94px 184px;
+    margin: 0 115px 27px 115px;
     display: inline-block;
     align-self: flex-start;
     overflow-wrap: break-word;
     font-family: 'Inter';
     font-weight: 700;
-    font-size: 64px;
-    color: #4F7B58;
+    font-size: 48px;
+    color: #133611;
   }
   .berita .text-1 {
-    margin: 0 184px 35.6px 184px;
+    margin: 20px 184px 35.6px 115px;
     display: inline-block;
     align-self: flex-start;
     overflow-wrap: break-word;
     font-family: 'Inter';
-    font-weight: 600;
-    font-size: 40px;
-    color: #4F7B58;
+    font-weight: 700;
+    font-size: 36px;
+    color: #133611;
   }
   .berita .rectangle-1 {
-    margin: 0 184px 116.8px 184px;
+    margin: 0 230px 116.8px 115px;
     display: flex;
     flex-direction: row;
     align-self: flex-start;
@@ -134,7 +121,7 @@ body{
   }
   .berita .rectangle-1-1 {
     border-radius: 50px;
-    border: 3px solid #4F7B58;
+    border: 3px solid #133611;
     background: linear-gradient(rgba(79, 123, 88, 0.2), rgba(79, 123, 88, 0.2)), linear-gradient(180deg, #B71211 23.9%, #FFFEFE 69.9%);
     position: relative;
     margin: 0 36.4px 0 0;
@@ -153,7 +140,7 @@ body{
     overflow-wrap: break-word;
     font-family: 'Inter';
     font-weight: 700;
-    font-size: 32px;
+    font-size: 24px;
     color: #FFFFFF;
   }
   .berita .rectangle-1-2 {
@@ -189,7 +176,7 @@ body{
     font-family: 'Inter';
     font-weight: 700;
     font-size: 24px;
-    color: #4F7B58;
+    color: #133611;
   }
   .berita .desc {
     margin: 0.4px 0 18.2px 0;
@@ -201,21 +188,25 @@ body{
     font-size: 36px;
     color: #000000;
   }
+  .berita .rectangle--2{
+    display: flex;
+    flex-direction: column;
+  }
   .berita .berita-lainnya {
-    margin: 0 184px 36px 184px;
+    margin: 0 184px 36px 115px;
     display: inline-block;
     align-self: flex-start;
     overflow-wrap: break-word;
     font-family: 'Inter';
     font-weight: 600;
-    font-size: 40px;
-    color: #4F7B58;
+    font-size: 48px;
+    color: #133611;
   }
   .berita .rectangle-2 {
     border-radius: 20px;
-    background: #4F7B58;
+    background: #133611;
     position: relative;
-    margin: 0 185px 31px 184px;
+    margin: 0 230px 31px 115px;
     display: flex;
     flex-direction: column;
     padding: 43px 0 48px 43px;
@@ -228,7 +219,7 @@ body{
     overflow-wrap: break-word;
     font-family: 'Inter';
     font-weight: 600;
-    font-size: 44px;
+    font-size: 36px;
     color: #FFFFFF;
   }
   .berita .text-4-1 {
@@ -236,14 +227,14 @@ body{
     overflow-wrap: break-word;
     font-family: 'Inter';
     font-weight: 300;
-    font-size: 32px;
+    font-size: 24px;
     color: #FFFFFF;
   }
   .berita .rectangle-2-1 {
     border-radius: 20px;
-    background: #4F7B58;
+    background: #133611;
     position: relative;
-    margin: 0 185px 31px 184px;
+    margin: 0 230px 31px 115px;
     display: flex;
     flex-direction: column;
     padding: 44px 132.5px 48px 43px;
@@ -255,7 +246,7 @@ body{
     overflow-wrap: break-word;
     font-family: 'Inter';
     font-weight: 600;
-    font-size: 44px;
+    font-size: 36px;
     color: #FFFFFF;
   }
   .berita .text-5-1 {
@@ -263,14 +254,14 @@ body{
     overflow-wrap: break-word;
     font-family: 'Inter';
     font-weight: 300;
-    font-size: 32px;
+    font-size: 24px;
     color: #FFFFFF;
   }
   .berita .rectangle-2-2 {
     border-radius: 20px;
-    background: #4F7B58;
+    background: #133611;
     position: relative;
-    margin: 0 185px 32px 184px;
+    margin: 0 230px 32px 115px;
     display: flex;
     flex-direction: column;
     padding: 34px 54.2px 55px 43px;
@@ -282,7 +273,7 @@ body{
     overflow-wrap: break-word;
     font-family: 'Inter';
     font-weight: 600;
-    font-size: 44px;
+    font-size: 36px;
     color: #FFFFFF;
   }
   .berita .text-6-1 {
@@ -290,14 +281,14 @@ body{
     overflow-wrap: break-word;
     font-family: 'Inter';
     font-weight: 300;
-    font-size: 32px;
+    font-size: 24px;
     color: #FFFFFF;
   }
   .berita .rectangle-2-4 {
     border-radius: 20px;
-    background: #4F7B58;
+    background: #133611;
     position: relative;
-    margin: 0 185px 31px 184px;
+    margin: 0 230px 31px 115px;
     display: flex;
     flex-direction: column;
     padding: 44px 55.2px 48px 43px;
@@ -309,7 +300,7 @@ body{
     overflow-wrap: break-word;
     font-family: 'Inter';
     font-weight: 600;
-    font-size: 44px;
+    font-size: 36px;
     color: #FFFFFF;
   }
   .berita .text-8-1 {
@@ -317,14 +308,14 @@ body{
     overflow-wrap: break-word;
     font-family: 'Inter';
     font-weight: 300;
-    font-size: 32px;
+    font-size: 24px;
     color: #FFFFFF;
   }
   .berita .rectangle-2-5 {
     border-radius: 20px;
-    background: #4F7B58;
+    background: #133611;
     position: relative;
-    margin: 0 185px 31px 184px;
+    margin: 0 230px 31px 115px;
     display: flex;
     flex-direction: column;
     padding: 44px 55.2px 48px 43px;
@@ -336,7 +327,7 @@ body{
     overflow-wrap: break-word;
     font-family: 'Inter';
     font-weight: 600;
-    font-size: 44px;
+    font-size: 36px;
     color: #FFFFFF;
   }
   .berita .text-9-1 {
@@ -344,14 +335,14 @@ body{
     overflow-wrap: break-word;
     font-family: 'Inter';
     font-weight: 300;
-    font-size: 32px;
+    font-size: 24px;
     color: #FFFFFF;
   }
   .berita .rectangle-2-6 {
     border-radius: 20px;
-    background: #4F7B58;
+    background: #133611;
     position: relative;
-    margin: 0 186px 128px 183px;
+    margin: 0 230px 128px 115px;
     display: flex;
     flex-direction: column;
     padding: 44px 55.2px 48px 43px;
@@ -363,7 +354,7 @@ body{
     overflow-wrap: break-word;
     font-family: 'Inter';
     font-weight: 600;
-    font-size: 44px;
+    font-size: 36px;
     color: #FFFFFF;
   }
   .berita .text-10-1 {
@@ -371,11 +362,11 @@ body{
     overflow-wrap: break-word;
     font-family: 'Inter';
     font-weight: 300;
-    font-size: 32px;
+    font-size: 24px;
     color: #FFFFFF;
   }
   .berita .rectangle-3 {
-    background: #4F7B58;
+    background: #133611;
     width: 1920px;
     height: 230px;
   }
