@@ -128,17 +128,37 @@ body{
     color: #FFFFFF;
   }
   .home .rectangle-2-1 {
-    border-radius: 20px;
-    background: #133611;
-    position: relative;
+    margin: 30px 300px 0 50px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 48.4px;
-    width: 500px ;
-    height: 200px;
+    flex-direction: row;
+    justify-content: space-between;
     box-sizing: border-box;
+  }
+  .home .judul{
+    font-size: 500;
+    font-family: 'Inter';
+    font-size: 32px;
+    color: 454141;
+  }
+  .home .terbit{
+    font-size: 500;
+    font-family: 'Inter';
+    font-size: 32px;
+    color: 454141;
+  }
+  .home .action{
+    font-size: 500;
+    font-family: 'Inter';
+    font-size: 32px;
+    color: 454141;
+  }
+  .home .line-1{
+    margin: 25px 118px 112px 0;
+    display: flex;
+    width: 1560px;
+    box-sizing: border-box;
+    color: #202e1f;
+    border: solid;
   }
   .home .text-3 {
     display: inline-block;

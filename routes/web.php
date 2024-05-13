@@ -69,3 +69,19 @@ Route::get('/admin+tentangpemilu', function () {
 Route::get('/admin+berita', function () {
     return view('adberita');
 });
+
+Route::get('/tambah+berita', function () {
+    return view('tambahberita');
+});
+
+Route::get('/edit+berita', function () {
+    return view('editberita');
+});
+
+Route::get('/tambah+partai', function () {
+    return view('tambahpartai');
+});
+
+Route::get('/tambah+tp', function () {
+    return view('tambahtp');
+});
