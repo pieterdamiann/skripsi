@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Tambah Partai</title>
+        <title>Edit Partai</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{('assets/css/tambahpartai.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{('assets/css/Editpartai.css')}}" type="text/css">
         <style>
             
         </style>
@@ -36,17 +36,13 @@
             <div class="line-01"></div>
             <div class="rectangle-title">
                 <div class="name">
-                Tambah Partai
+                Edit Partai
                 </div>
             </div>
             <div class="rectangle-2">
                 <div class="rectangle-2-1">
                     <div class="judul">Nama Partai*</div>
                     <input type="text" class="text-1"></input>
-                </div>
-                <div class="rectangle-2-2">
-                    <div class="tanggal">Tanggal Partai Dibentuk*</div>
-                    <input type="date" class="text-2"></input>
                 </div>
                 <div class="rectangle-2-3">
                     <div class="nama">Nama Ketua Umum*</div>
