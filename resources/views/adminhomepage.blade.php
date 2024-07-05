@@ -33,6 +33,7 @@
                 </a>
               </div>
             </div>
+            <div class="line-01"></div>
             <div class="name">
               Welcome Admin
             </div>
@@ -40,21 +41,21 @@
               <a class="table-1" href="/admin+berita">
                 <div class="rectangle-2-1">
                   <div class="text-3">
-                    Edit Berita
+                    Ubah Berita
                   </div>
                 </div>
               </a>
-              <a class="table-2" href="lokasicoblos">
+              <a class="table-2" href="/admin+partai">
                 <div class="rectangle-2-2">
                   <div class="text-4">
-                    Edit Partai
+                    Ubah Partai
                   </div>
                 </div>
               </a>
-              <a class="table-3" href="persiapan">
+              <a class="table-3" href="/admin+tentangpemilu">
                 <div class="rectangle-2-3">
                   <div class="text-5">
-                    Edit Tentang Pemilu
+                    Ubah Tentang Pemilu
                   </div>
                 </div>
               </a>

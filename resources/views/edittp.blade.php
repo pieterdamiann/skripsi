@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Tambah Berita</title>
+        <title>Edit Tentang Pemilu</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{('assets/css/tambahberita.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{('assets/css/edittp.css')}}" type="text/css">
         <style>
             
         </style>
@@ -36,22 +36,10 @@
             <div class="line-01"></div>
             <div class="rectangle-title">
                 <div class="name">
-                Tambah Berita
+                Edit Tentang Pemilu
                 </div>
             </div>
             <div class="rectangle-2">
-                <div class="rectangle-2-1">
-                    <div class="judul">Judul Berita*</div>
-                    <input type="text" class="text-1"></input>
-                </div>
-                <div class="rectangle-2-2">
-                    <div class="tanggal">Hari dan Tanggal Penerbit*</div>
-                    <input type="date" class="text-2"></input>
-                </div>
-                <div class="rectangle-2-3">
-                    <div class="nama">Nama Penerbit*</div>
-                    <input type="text" class="text-3"></input>
-                </div>
                 <div class="rectangle-2-4">
                     <div class="link">Link</div>
                     <input type="text" class="text-4"></input>

@@ -78,10 +78,30 @@ Route::get('/edit+berita', function () {
     return view('editberita');
 });
 
+Route::get('/delete+berita', function () {
+    return view('deleteberita');
+});
+
 Route::get('/tambah+partai', function () {
     return view('tambahpartai');
 });
 
+Route::get('/edit+partai', function () {
+    return view('editpartai');
+});
+
+Route::get('/delete+partai', function () {
+    return view('deletepartai');
+});
+
 Route::get('/tambah+tp', function () {
     return view('tambahtp');
+});
+
+Route::get('/edit+tp', function () {
+    return view('edittp');
+});
+
+Route::get('/delet+tp', function () {
+    return view('delettp');
 });

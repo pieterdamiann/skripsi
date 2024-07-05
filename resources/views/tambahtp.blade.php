@@ -33,6 +33,7 @@
                 </a>
               </div>
             </div>
+            <div class="line-01"></div>
             <div class="rectangle-title">
                 <div class="name">
                 Tambah Tentang Pemilu

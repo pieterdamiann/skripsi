@@ -19,24 +19,25 @@
     <body>
         <div class="berita">
           <div class="rectangle">
-          <div class="navbar">
-            <a class="logo1" href="/">
-            </a>
-            <div class="rbutton">
-              <div class="berita1">
-                <a href="/berita">Berita</a>
+              <div class="navbar">
+                <a class="logo1" href="/">
+                </a>
+                <div class="rbutton">
+                  <div class="berita1">
+                    <a href="/berita">Berita</a>
+                  </div>
+                  <div class="tentang-pemilu">
+                    <a href="/tentangpemilu">Tentang Pemilu</a>
+                  </div>
+                  <div class="partai">
+                    <a href="/partai">Partai</a>
+                  </div>
+                  <div class="tentang-kami">
+                    <a href="/tentangkami">Tentang Kami</a>
+                  </div>
+                </div>
               </div>
-              <div class="tentang-pemilu">
-                <a href="/tentangpemilu">Tentang Pemilu</a>
-              </div>
-              <div class="partai">
-                <a href="/partai">Partai</a>
-              </div>
-              <div class="tentang-kami">
-                <a href="/tentangkami">Tentang Kami</a>
-              </div>
-            </div>
-          </div>
+              <div class="line-1"></div>
           <div class="rectangle--1">
             <div class="berita-2">
               Berita

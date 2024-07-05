@@ -36,7 +36,8 @@
                     <a href="/tentangkami">Tentang Kami</a>
                   </div>
                 </div>
-              </div>
+            </div>
+            <div class="line-1"></div>
             <div class="tentang-pemilu-1">
               Tentang Pemilu
             </div>
