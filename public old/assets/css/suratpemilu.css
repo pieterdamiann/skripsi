@@ -1,0 +1,191 @@
+body{
+  margin: 0 0 0 0;
+  display: flex;
+  position: relative;
+  overflow-x: hidden;
+}
+.tentang-pemilu-1 {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding-top: 59px;
+  width: 1920px;
+  box-sizing: border-box;
+}
+.tentang-pemilu-1 {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding-top: 59px;
+  width: 1920px;
+  box-sizing: border-box;
+}
+.tentang-pemilu-1 .navbar {
+  margin: 0 98px 143px 116px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1706px;
+  box-sizing: border-box;
+}
+.tentang-pemilu-1 .logo1 {
+  background: url('/assets/pemiluhijau.png') 50% / cover no-repeat;
+  width: 173px;
+  height: 96px;
+}
+.tentang-pemilu-1 .rbutton {
+  margin: 7px 0 17px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.tentang-pemilu-1 .berita {
+  margin: 18px 66.5px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #4F7B58;
+}
+.tentang-pemilu-1 .berita a{
+  text-decoration: none;
+  color: #4F7B58;
+}
+.tentang-pemilu-1 .tentang-pemilu {
+  margin: 18px 68.8px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 30px;
+  color: #4F7B58;
+}
+.tentang-pemilu-1 .tentang-pemilu a{
+  text-decoration: none;
+  color: #4F7B58;
+}
+.tentang-pemilu-1 .partai {
+  margin: 18px 65.7px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #4F7B58;
+}
+.tentang-pemilu-1 .partai a{
+  text-decoration: none;
+  color: #4F7B58;
+}
+.tentang-pemilu-1 .tentang-kami {
+  margin: 18px 67.7px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #4F7B58;
+}
+.tentang-pemilu-1 .tentang-kami a{
+  text-decoration: none;
+  color: #4F7B58;
+}
+.masuk {
+  text-decoration: none;
+  color: #ffffff;
+}
+.tentang-pemilu-1 .rectangle-login {
+  border-radius: 20px;
+  background: #4F7B58;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 18px 0 18px 0.3px;
+  width: 135px;
+  box-sizing: border-box;
+}
+.tentang-pemilu-1 .login {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.tentang-pemilu-1 .tentang-pemilu-2 {
+  margin: 0 184px 33px 184px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 64px;
+  color: #4F7B58;
+}
+.tentang-pemilu-1 .rectangle-2 {
+  border-radius: 20px;
+  background: #4F7B58;
+  position: relative;
+  margin: 0 165px 83px 184px;
+  display: flex;
+  flex-direction: column;
+  padding: 60.5px 94.2px 113px 68px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.tentang-pemilu-1 .judul {
+  margin-bottom: 36.5px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 44px;
+  color: #FFFFFF;
+}
+.tentang-pemilu-1 .desc {
+  margin-bottom: 56px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.tentang-pemilu-1 .rectangle-2-1 {
+  margin-right: 16px;
+  display: flex;
+  flex-direction: row;
+  width: 1392.8px;
+  box-sizing: border-box;
+}
+.back {
+  text-decoration: none;
+  color: #ffffff;
+}
+.tentang-pemilu-1 .rectangle-3 {
+  border-radius: 20px;
+  background: #4F7B58;
+  position: relative;
+  margin-bottom: 115px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  padding: 27px 5px 27px 0;
+  width: 278px;
+  box-sizing: border-box;
+}
+.tentang-pemilu-1 .lainnya {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 44px;
+  color: #FFFFFF;
+}
+.tentang-pemilu-1 .rectangle-4 {
+  background: #4F7B58;
+  width: 1920px;
+  height: 230px;
+}

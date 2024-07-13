@@ -1,0 +1,135 @@
+body{
+  margin: 0 0 0 0;
+  display: flex;
+  position: relative;
+  overflow-x: hidden;
+}
+.tentang-kami {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding-top: 59px;
+  width: 1920px;
+  box-sizing: border-box;
+}
+.tentang-kami .rectangle{
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+}
+.tentang-kami .navbar {
+  margin: 0 98px 143px 116px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1706px;
+  box-sizing: border-box;
+}
+.tentang-kami .logo1 {
+  background: url('/assets/pemiluhijau3.svg') 50% / cover no-repeat;
+  width: 183.3px;
+  height: 90.76px;
+}
+.tentang-kami .rbutton {
+  margin: 7px 70px 17px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.tentang-kami .berita {
+  margin: 18px 66.5px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #133611;
+}
+.tentang-kami .berita a{
+  text-decoration: none;
+  color: #133611;
+}
+.tentang-kami .tentang-pemilu {
+  margin: 18px 68.8px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #133611;
+}
+.tentang-kami .tentang-pemilu a{
+  text-decoration: none;
+  color: #133611;
+}
+.tentang-kami .partai {
+  margin: 18px 65.7px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #133611;
+}
+.tentang-kami .partai a{
+  text-decoration: none;
+  color: #133611;
+}
+.tentang-kami .tentang-kami-1 {
+  margin: 18px 67.7px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 30px;
+  color: #133611;
+}
+.tentang-kami .tentang-kami-1 a{
+  text-decoration: none;
+  color: #133611;
+}
+.tentang-kami .tentang-kami-2 {
+  margin: 0 184px 73px 110px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 48px;
+  color: #133611;
+}
+.tentang-kami .rectangle-3 {
+  margin: 0 172px 112px 115px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.tentang-kami .logo-1 {
+  margin-right: 10px;
+  width: 595.5px;
+  height: 295px;
+}
+.tentang-kami .desc-box{
+  margin: 0 0 0 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 800px;
+  box-sizing: border-box;
+}
+.tentang-kami .desc {
+  display: inline-block;
+  position: relative;
+  text-align: justify;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 36px;
+  color: #133611;
+  margin-left: 20px;
+  overflow-wrap: break-word;
+}
+.tentang-kami .rectangle-4 {
+  background: #133611;
+  width: 1920px;
+  height: 230px;
+}

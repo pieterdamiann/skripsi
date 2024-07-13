@@ -1,0 +1,176 @@
+
+body{
+  margin: 0 0 0 0;
+  display: flex;
+  position: relative;
+  overflow-x: hidden;
+}
+.tentang-pemilu-2 {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding-top: 59px;
+  width: 1920px;
+  box-sizing: border-box;
+}
+.tentang-pemilu-2 .rectangle{
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+}
+.tentang-pemilu-2 .navbar {
+  margin: 0 98px 143px 116px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1706px;
+  box-sizing: border-box;
+}
+.tentang-pemilu-2 .logo1 {
+  background: url('/assets/pemiluhijau3.svg') 50% / cover no-repeat;
+  width: 183.3px;
+  height: 90.76px;
+}
+.tentang-pemilu-2 .rbutton {
+  margin: 7px 70px 17px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.tentang-pemilu-2 .berita {
+  margin: 18px 66.5px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #133611;
+}
+.tentang-pemilu-2 .berita a{
+  text-decoration: none;
+  color: #133611;
+}
+.tentang-pemilu-2 .tentang-pemilu {
+  margin: 18px 68.8px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 30px;
+  color: #133611;
+}
+.tentang-pemilu-2 .tentang-pemilu a{
+  text-decoration: none;
+  color: #133611;
+}
+.tentang-pemilu-2 .partai {
+  margin: 18px 65.7px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #133611;
+}
+.tentang-pemilu-2 .partai a{
+  text-decoration: none;
+  color: #133611;
+}
+.tentang-pemilu-2 .tentang-kami {
+  margin: 18px 67.7px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #133611;
+}
+.tentang-pemilu-2 .tentang-kami a{
+  text-decoration: none;
+  color: #133611;
+}
+.tentang-pemilu-2 .tentang-pemilu-1 {
+  margin: 0 184px 33px 115px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 48px;
+  color: #133611;
+}
+.tentang-pemilu-2 .rectangle-1 {
+  border-radius: 20px;
+  background: #133611;
+  position: relative;
+  margin: 0 240px 42px 115px;
+  display: flex;
+  flex-direction: column;
+  padding: 75px 114.5px 52px 68px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.tentang-pemilu-2 .text-1 {
+  margin-bottom: 21px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.tentang-pemilu-2 .text-2 {
+  position: relative;
+  margin-bottom: 12px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.tentang-pemilu-2 .img1 {
+  background: url('/assets/img2.jpg') 50% / cover no-repeat;
+  margin-bottom: 10px;
+  align-self: flex-start;
+  width: 447px;
+  height: 479px;
+}
+.tentang-pemilu-2 .img2 {
+  background: url('/assets/img1.jpeg') 50% / cover no-repeat;
+  position: absolute;
+  left: 68px;
+  top: 273px;
+  width: 256px;
+  height: 256px;
+}
+.back {
+  text-decoration: none;
+  color: #ffffff;
+}
+.tentang-pemilu-2 .rectangle-2 {
+  border-radius: 20px;
+  background: #133611;
+  position: relative;
+  margin-bottom: 115px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  padding: 27px 5px 27px 0;
+  width: 278px;
+  box-sizing: border-box;
+}
+.tentang-pemilu-2 .lainnya {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.tentang-pemilu-2 .rectangle-3 {
+  background: #133611;
+  width: 1920px;
+  height: 230px;
+}

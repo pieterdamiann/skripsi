@@ -1,0 +1,198 @@
+body{
+  margin: 0 0 0 0;
+  display: flex;
+  position: relative;
+  overflow-x: hidden;
+}
+.tentang-pemilu {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding-top: 59px;
+  width: 1920px;
+  box-sizing: border-box;
+}
+.tentang-pemilu .rectangle{
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+}
+.tentang-pemilu .navbar {
+  margin: 0 98px 143px 116px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1706px;
+  box-sizing: border-box;
+}
+.tentang-pemilu .logo1 {
+  background: url('/assets/pemiluhijau3.svg') 50% / cover no-repeat;
+  width: 183.3px;
+  height: 90.76px;
+}
+.logo1{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.tentang-pemilu .rbutton {
+  margin: 7px 70px 17px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.tentang-pemilu .berita {
+  margin: 18px 66.5px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #133611;
+}
+.tentang-pemilu .berita a{
+  text-decoration: none;
+  color: #133611;
+}
+.tentang-pemilu .tentang-pemilu-1 {
+  margin: 18px 68.8px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 30px;
+  color: #133611;
+}
+.tentang-pemilu .tentang-pemilu-1 a{
+  text-decoration: none;
+  color: #133611;
+}
+.tentang-pemilu .partai {
+  margin: 18px 65.7px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #133611;
+}
+.tentang-pemilu .partai a{
+  text-decoration: none;
+  color: #133611;
+}
+.tentang-pemilu .tentang-kami {
+  margin: 18px 67.7px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #133611;
+}
+.tentang-pemilu .tentang-kami a{
+  text-decoration: none;
+  color: #133611;
+}
+.tentang-pemilu .tentang-pemilu-2 {
+  margin: 0 115px 27px 115px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    color: #133611;
+}
+.tentang-pemilu .rectangle-1 {
+  margin: 0 230px 112px 115px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  column-gap: 32px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.tentang-pemilu .rectangle-1-1 {
+  border-radius: 20px;
+  background: #133611;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 48.4px;
+  width: 500px ;
+  height: 518px;
+  box-sizing: border-box;
+}
+.table-1{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.tentang-pemilu .warna-pada-surat-suara-pemilu {
+  margin: 60px 0 0 0;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.gambar{
+  width: 200px;
+  height: 300px;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+.table-2{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.tentang-pemilu .rectangle-2 {
+  border-radius: 20px;
+  background: #133611;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 198.5px 48.1px 217.5px 48.1px;
+  width: 500px;
+  height: 518px;
+  box-sizing: border-box;
+}
+.tentang-pemilu .dimana-lokasi-saya-dapat-mencoblos {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.table-3{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.tentang-pemilu .rectangle-3 {
+  border-radius: 20px;
+  background: #133611;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 172px 0 191px 0;
+  width: 500px;
+  height: 518px;
+  box-sizing: border-box;
+}
+.tentang-pemilu .apa-yang-perlu-dipersiapkan-agar-bisa-terdaftar {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.tentang-pemilu .rectangle-4 {
+  background: #133611;
+  width: 1920px;
+  height: 230px;
+}

@@ -1,0 +1,251 @@
+body{
+  margin: 0 0 0 0;
+  display: flex;
+  position: relative;
+  overflow-x: hidden;
+}
+.partai {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding-top: 59px;
+  width: 1920px;
+  box-sizing: border-box;
+}
+.partai .rectangle{
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+}
+.partai .navbar {
+  margin: 0 98px 143px 116px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1706px;
+  box-sizing: border-box;
+}
+.partai .logo1 {
+  background: url('/assets/pemiluhijau3.svg') 50% / cover no-repeat;
+  width: 183.3px;
+  height: 90.76px;
+}
+.partai .rbutton {
+  margin: 7px 70px 17px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.partai .berita {
+  margin: 18px 66.5px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #133611;
+}
+.partai .berita a{
+  text-decoration: none;
+  color: #133611;
+}
+.partai .tentang-pemilu {
+  margin: 18px 68.8px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #133611;
+}
+.partai .tentang-pemilu a{
+  text-decoration: none;
+  color: #133611;
+}
+.partai .partai-1 {
+  margin: 18px 65.7px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 30px;
+  color: #133611;
+}
+.partai .partai-1 a{
+  text-decoration: none;
+  color: #133611;
+}
+.partai .tentang-kami {
+  margin: 18px 67.7px 18px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #133611;
+}
+.partai .tentang-kami a{
+  text-decoration: none;
+  color: #133611;
+}
+.partai .partai-yang-tergabung-dalam-pemilu-2024 {
+  margin: 0 184px 37px 115px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 48px;
+  color: #133611;
+}
+.partai .rectangle-1 {
+  border-radius: 20px;
+  background: #133611;
+  position: relative;
+  margin: 0 240px 176px 115px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding: 55px 38px 75px 39px;
+  box-sizing: border-box;
+}
+.partai .rectangle-1-1 {
+  margin: 0 0 210px 16px;
+  display: flex;
+  flex-direction: row;
+  width: 1450px;
+  box-sizing: border-box;
+}
+.partai .pkb {
+  background: url('/assets/partaipkb.png')50% / cover no-repeat;
+  margin-right: 131px;
+  width: 179px;
+  height: 228px;
+}
+.partai .gerindra {
+  background: url('/assets/partaigerindra.png') 50% / cover no-repeat;
+  margin: 8px 118px 13px 0;
+  width: 173px;
+  height: 207px;
+}
+.partai .pdip {
+  background: url('/assets/partaipdip.png') 50% / cover no-repeat;
+  margin: 8px 118px 9px 0;
+  width: 187px;
+  height: 211px;
+}
+.partai .golkar {
+  background: url('/assets/partaigolkar.png') 50% / cover no-repeat;
+  margin: 8px 118px 3px 0;
+  width: 213px;
+  height: 217px;
+}
+.partai .nasdem {
+  background: url('/assets/partainasdem.png') 50% / cover no-repeat;
+  margin-top: 15px;
+  width: 213px;
+  height: 213px;
+}
+.partai .rectangle-1-2 {
+  margin: 0 25px 218px 20px;
+  display: flex;
+  flex-direction: row;
+  width: 1421px;
+  box-sizing: border-box;
+}
+.partai .buruh {
+  background: url('/assets/partaiburuh.png') 50% / cover no-repeat;
+  margin: 63px 117px 64px 0;
+  width: 175px;
+  height: 75px;
+}
+.partai .gelora {
+  background: url('/assets/partaigelora.png') 50% / cover no-repeat;
+  margin-right: 96px;
+  width: 202px;
+  height: 202px;
+}
+.partai .pks {
+  background: url('/assets/partaipks.png') 50% / cover no-repeat;
+  margin-right: 116px;
+  width: 202px;
+  height: 202px;
+}
+.partai .pkn {
+  background: url('/assets/partaipkn.png') 50% / cover no-repeat;
+  margin-right: 149px;
+  width: 202px;
+  height: 202px;
+}
+.partai .hanura {
+  background: url('/assets/partaihanura.png') 50% / cover no-repeat;
+  margin: 54px 0;
+  width: 162px;
+  height: 94px;
+}
+.partai .rectangle-1-3 {
+  margin: 0 26px 258px 0;
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.partai .garuda {
+  background: url('/assets/partaigaruda.png') 50% / cover no-repeat;
+  margin-right: 125px;
+  width: 212px;
+  height: 212px;
+}
+.partai .pan {
+  background: url('/assets/partaipan.png') 50% / cover no-repeat;
+  margin: 2px 132px 3px 0;
+  width: 152px;
+  height: 207px;
+}
+.partai .pbb {
+  background: url('/assets/partaibulanbintang.png') 50% / cover no-repeat;
+  margin: 0 118px 5px 0;
+  width: 183px;
+  height: 207px;
+}
+.partai .demokrat {
+  background: url('/assets/partaidemokrat.png') 50% / cover no-repeat;
+  margin: 47px 150px 48px 0;
+  width: 208px;
+  height: 117px;
+}
+.partai .psi {
+  background: url('/assets/partaipsi.png') 50% / cover no-repeat;
+  margin: 1px 0 6px 0;
+  width: 160px;
+  height: 205px;
+}
+.partai .rectangle-1-4 {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: 796px;
+  box-sizing: border-box;
+}
+.partai .ppp {
+  background: url('/assets/partaippp.png') 50% / cover no-repeat;
+  margin-right: 114px;
+  width: 205px;
+  height: 205px;
+}
+.partai .ummat {
+  background: url('/assets/partaiummat.png') 50% / cover no-repeat;
+  width: 167px;
+  height: 205px;
+}
+.partai .perindo {
+  background: url('/assets/partaiperindo.png') 50% / cover no-repeat;
+  margin: 26px 100px 25px 0;
+  width: 210px;
+  height: 154px;
+}
+.partai .rectangle-2 {
+  background: #133611;
+  width: 1920px;
+  height: 230px;
+}
