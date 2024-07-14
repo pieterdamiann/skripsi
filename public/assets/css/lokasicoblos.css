@@ -19,12 +19,21 @@ body{
   padding: 20px;
 }
 .tentang-pemilu-2 .navbar {
-  margin: 0 98px 143px 116px;
+  margin: 20px 98px 30px 116px;
   display: flex;
   flex-direction: row;
+  justify-items: center;
   justify-content: space-between;
   width: 1706px;
   box-sizing: border-box;
+}
+.line-1{
+  margin-bottom: 100px;
+  display: flex;
+  width: 1920px;
+  border: solid 2px;
+  box-sizing: border-box;
+  color: #133611;
 }
 .tentang-pemilu-2 .logo1 {
   background: url('/assets/pemiluhijau3.svg') 50% / cover no-repeat;

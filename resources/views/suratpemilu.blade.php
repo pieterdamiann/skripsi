@@ -38,6 +38,7 @@
               </div>
             </div>
           </div>
+          <div class="line-1"></div>
             <div class="tentang-pemilu-2">
               Tentang Pemilu
             </div>

@@ -19,24 +19,25 @@
     <body>
         <div class="home">
           <div class="rectangle">
-            <div class="navbar">
-              <a class="logo1" href="/">
-              </a>
-              <div class="rbutton">
-                <div class="berita">
-                  <a href="/berita">Berita</a>
-                </div>
-                <div class="tentang-pemilu">
-                  <a href="/tentangpemilu">Tentang Pemilu</a>
-                </div>
-                <div class="partai">
-                  <a href="/partai">Partai</a>
-                </div>
-                <div class="tentang-kami">
-                  <a href="/tentangkami">Tentang Kami</a>
+              <div class="navbar">
+                <a class="logo1" href="/">
+                </a>
+                <div class="rbutton">
+                  <div class="berita">
+                    <a href="/berita">Berita</a>
+                  </div>
+                  <div class="tentang-pemilu">
+                    <a href="/tentangpemilu">Tentang Pemilu</a>
+                  </div>
+                  <div class="partai">
+                    <a href="/partai">Partai</a>
+                  </div>
+                  <div class="tentang-kami">
+                    <a href="/tentangkami">Tentang Kami</a>
+                  </div>
                 </div>
               </div>
-            </div>
+            <div class="line-1"></div>
             <div class="berita-1">
               Berita
             </div>
@@ -115,7 +116,7 @@
               Tentang Kami
             </div>
             <div class="rectangle-4">
-              <img class="logo-2" src="/assets/pemiluhijau2.png" />
+              <img class="logo-2" src="/assets/pemiluhijau3.svg" />
               <div class="desc-box">
                 <div class="desc">
                   Pemilu Hijau adalah website yang mengusung tentang pemilu yang bertujuan agar

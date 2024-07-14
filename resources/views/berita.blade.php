@@ -19,24 +19,25 @@
     <body>
         <div class="berita">
           <div class="rectangle">
-          <div class="navbar">
-            <a class="logo1" href="/">
-            </a>
-            <div class="rbutton">
-              <div class="berita1">
-                <a href="/berita">Berita</a>
+              <div class="navbar">
+                <a class="logo1" href="/">
+                </a>
+                <div class="rbutton">
+                  <div class="berita1">
+                    <a href="/berita">Berita</a>
+                  </div>
+                  <div class="tentang-pemilu">
+                    <a href="/tentangpemilu">Tentang Pemilu</a>
+                  </div>
+                  <div class="partai">
+                    <a href="/partai">Partai</a>
+                  </div>
+                  <div class="tentang-kami">
+                    <a href="/tentangkami">Tentang Kami</a>
+                  </div>
+                </div>
               </div>
-              <div class="tentang-pemilu">
-                <a href="/tentangpemilu">Tentang Pemilu</a>
-              </div>
-              <div class="partai">
-                <a href="/partai">Partai</a>
-              </div>
-              <div class="tentang-kami">
-                <a href="/tentangkami">Tentang Kami</a>
-              </div>
-            </div>
-          </div>
+              <div class="line-1"></div>
           <div class="rectangle--1">
             <div class="berita-2">
               Berita
@@ -45,43 +46,44 @@
               HEAD NEWS
             </div>
           </div>
-          @foreach($berita_utama as $berita_u)
-            <a
-            href="/berita/{{$berita_u->id}}"
-            style="text-decoration: none; color: black">
-              <div class="rectangle-1">
-                <div class="rectangle-1-1">
-                  <img src="/assets/{{$berita_u->filename}}" alt="img">
-                <div class="desc">
-                  {{$berita_u->deskripsi}}
+            <div class="rectangle-1">
+              <div class="rectangle-1-1">
+                <div class="text-2">
+                  Presiden dan Wakil Presiden <br />
+                  Periode 2024 - 2029
                 </div>
+                <div class="rectangle-1-2">
+                  <img class="mask" src="../assets/prabowo.jpg" />
+                  <img class="mask-1" src="../assets/gibran.jpg" />
+                </div>
+                <span class="text-3">
+                  Prabowo Sugianto<br />
+                  &amp;<br />
+                  K. P. H. Gibran Rakabuming Raka, B.Sc.
+                </span>
               </div>
-            </a>
+              <div class="desc">
+                Selamat kepada Bapak Prabowo Subianto dan Bapak Gibran Rakabuming Raka 
+                atas terpilihnya sebagai Presiden dan Wakil Presiden. Kepemimpinan yang 
+                baru ini diharapkan menjadi tonggak baru dalam perjalanan bangsa 
+                Indonesia menuju kemajuan dan kesejahteraan yang lebih baik. Semoga visi 
+                dan komitmen yang telah disampaikan selama kampanye dapat diwujudkan 
+                dengan baik, dan semoga kebijaksanaan serta keputusan yang diambil 
+                mendapat dukungan dan kepercayaan dari seluruh rakyat Indonesia.
+              </div>
+            </div>
             <div class="rectangle--2">
-              <div>{{$berita_u}}</div>
-          @endforeach
-            
             <div class="berita-lainnya">
               Berita Lainnya
             </div>
-            {{-- @foreach($berita as $berita)
-              @if ($berita->berita_utama != 'ya')
-                <a
-                href="/berita/{{$berita->id}}"
-                style="text-decoration: none; color: black">
-                  <div class="rectangle-2">
-                    <div class="text-4">
-                      Pemerintah Antisipasi Dampak Ekonomi dari Konflik Iran Israel 
-                    </div>
-                    <span class="text-4-1">
-                      16 April 2024
-                    </span>
-                  </div>
-                </a>
-                <div class="rectangle--2">
-              @endif
-            @endforeach --}}
-            
+            <div class="rectangle-2">
+              <div class="text-4">
+                Pemerintah Antisipasi Dampak Ekonomi dari Konflik Iran Israel 
+              </div>
+              <span class="text-4-1">
+                16 April 2024
+              </span>
+            </div>
             <div class="rectangle-2-1">
               <div class="text-5">
                 Sikap Pemerintah soal Israel Diyakini Tidak Dipengaruhi Prabowo

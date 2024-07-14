@@ -20,24 +20,25 @@
     <body>
         <div class="partai">
           <div class="rectangle">
-          <div class="navbar">
-            <a class="logo1" href="/">
-            </a>
-            <div class="rbutton">
-              <div class="berita">
-                <a href="/berita">Berita</a>
+              <div class="navbar">
+                <a class="logo1" href="/">
+                </a>
+                <div class="rbutton">
+                  <div class="berita">
+                    <a href="/berita">Berita</a>
+                  </div>
+                  <div class="tentang-pemilu">
+                    <a href="/tentangpemilu">Tentang Pemilu</a>
+                  </div>
+                  <div class="partai-1">
+                    <a href="/partai">Partai</a>
+                  </div>
+                  <div class="tentang-kami">
+                    <a href="/tentangkami">Tentang Kami</a>
+                  </div>
+                </div>
               </div>
-              <div class="tentang-pemilu">
-                <a href="/tentangpemilu">Tentang Pemilu</a>
-              </div>
-              <div class="partai-1">
-                <a href="/partai">Partai</a>
-              </div>
-              <div class="tentang-kami">
-                <a href="/tentangkami">Tentang Kami</a>
-              </div>
-            </div>
-          </div>
+              <div class="line-1"></div>
             <div class="partai-yang-tergabung-dalam-pemilu-2024">
               Partai yang Tergabung dalam Pemilu 2024
             </div>
