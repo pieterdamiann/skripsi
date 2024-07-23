@@ -102,6 +102,9 @@ Route::get('/edit+tp', function () {
     return view('edittp');
 });
 
-Route::get('/delet+tp', function () {
-    return view('delettp');
+Route::get('/delete+tp', function () {
+    return view('deletetp');
+});
+Route::get('/partai+pdip', function () {
+    return view('partaipdip');
 });

@@ -48,8 +48,8 @@
                 </div>
                 <div class="gerindra">
                 </div>
-                <div class="pdip">
-                </div>
+                <a href="/partai+pdip" class="pdip">
+                </a>
                 <div class="golkar">
                 </div>
                 <div class="nasdem">
