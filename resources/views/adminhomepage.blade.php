@@ -60,6 +60,15 @@
                 </div>
               </a>
             </div>
+            <div class="rectangle-3">
+              <a class="table-4" href="/pilih+partai">
+                <div class="rectangle-3-1">
+                  <div class="text-6">
+                    Ubah Calon Anggota
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
             <div class="rectangle-6">
             </div>
