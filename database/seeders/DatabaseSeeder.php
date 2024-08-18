@@ -23,11 +23,30 @@ class DatabaseSeeder extends Seeder
 
         $tentang_kami = [
             [
-                'path_gambar' => '1',
-                'deskripsi' => 'Duo Slingbag'
+                'id' => 1,
+                'path_gambar' => '/assets/pemiluhijau3.svg',
+                'deskripsi' => 'Pemilu Hijau adalah website yang mengusung tentang pemilu yang bertujuan agar
+                  pengguna dapat mendapatkan informasi seputar pemilu, yang berupa berita-berita terbaru
+                  pengetahuan tentang pemilu itu sendiri, partai yang tergabung dalam periode pemilu.
+                  Dengan adanya website ini, diharapkan dapat mengurangi bahilo yang sering bertebaran
+                  dijalanan menjelang pemilu agar tidak menambah limbah sampah.'
             ],
         ];
 
-        DB::table('tentang_kami')->insert($tentang_kami);
+        DB::table('tentang_kamis')->insert($tentang_kami);
+
+
+        $tentang_pemilu = [
+            [
+                'judul' => 'Macam - Macam Warna Surat Suara pada Pemilu 2024 dan Tujuannya',
+                'tanggal_terbit' => '2023-05-28',
+                'nama_penerbit' => 'Pemilu Hijau',
+                'link' => 'https://pemiluhijau.com',
+                'deskripsi' => 'Pada pemilu 2024 kali ini, terdapat 5 macam surat suara yang dibedakan menurut warnanya masing - masing, berikut adalah contoh surat suara dan juga jenis warnanya',
+                'filename' => null,
+            ],
+        ];
+
+        DB::table('tentang_pemilus')->insert($tentang_pemilu);
     }
 }

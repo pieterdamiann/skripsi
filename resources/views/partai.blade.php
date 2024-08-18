@@ -44,7 +44,9 @@
             </div>
             <div class="rectangle-1">
               <div class="rectangle-1-1">
-                <div class="pkb">
+                <a href="/partaidetail">
+                  <div class="pkb">
+                </a>
                 </div>
                 <div class="gerindra">
                 </div>

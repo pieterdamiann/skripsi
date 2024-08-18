@@ -12,8 +12,9 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('tentang_kamis', function (Blueprint $table) {
+            $table->id();
             $table->string('path_gambar');
-            $table->string('deskripsi');
+            $table->text('deskripsi');
         });
     }
 
