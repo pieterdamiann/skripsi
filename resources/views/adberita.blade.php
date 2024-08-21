@@ -20,7 +20,7 @@
         <div class="home">
           <div class="rectangle">
             <div class="navbar">
-              <a class="logo1" href="/admin+homepage">
+              <a class="logo1" href="/admin">
               </a>
               <a class="text">For Admin</a>
               <div class="rbutton">

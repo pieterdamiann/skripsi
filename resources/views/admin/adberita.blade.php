@@ -24,21 +24,27 @@
               </a>
               <a class="text">For Admin</a>
               <div class="rbutton">
-                <a class="masuk" href="/admin+login">
-                  <div class="rectangle-login">
+                <form method="POST" action="{{ route('logout') }}">
+                  @csrf
+                  <button class="rectangle-login" type="submit">
                     <span class="login">
-                      Login
+                      @auth
+                      Logout
+                      @else
+                        Login
+                      @endauth
                     </span>
-                  </div>
-                </a>
+                  </button>
+                </form>
               </div>
             </div>
+            <div class="line-01"></div>
             <div class="rectangle-title">
                 <div class="name">
                 Edit Berita
                 </div>
                 <div class="rbutton-2">
-                    <a class="tambah" href="/tambah+berita">
+                    <a class="tambah" href="/addberita">
                     <div class="rectangle-tambah">
                         <span class="add">
                         + Add
@@ -53,32 +59,66 @@
                     <div class="terbit">Tanggal Terbit</div>
                     <div class="action">Action</div>
                 </div>
-                <div class="line-1"></div>
-              {{-- <a class="table-1" href="suratpemilu">
-                <div class="rectangle-2-1">
-                  <div class="text-3">
-                    Edit Berita
+                @foreach ($berita as $b)
+                
+                  <div class="line-1"></div>
+                  <div class="info-1">
+                      <div class="text-4">
+                        {{$b->judul}}
+                      </div>
+                    <div class="text-4-1">
+                      {{$b->tanggal_terbit}}
+                    </div>
+                    <div class="rbutton-1">
+                      <a class="edit-1" href="/edit+berita/{{$b->id}}">
+                        <span class="text-4-2">
+                          Edit
+                        </span>
+                      </a>
+                      <a class="delete-1">
+                        <span class="text-4-2">
+                          Delete
+                        </span>
+                      </a>
+                    </div>
                   </div>
-                </div>
-              </a>
-              <a class="table-2" href="lokasicoblos">
-                <div class="rectangle-2-2">
-                  <div class="text-4">
-                    Edit Partai
+                  <div class="popup-container" id="popup-container">
+                    <div class="popup">
+                      <p>Apa anda yakin ingin menghapus Berita ini?</p>
+                      <div class="buttons">
+                        <form id="form-hapus" action="{{ route('delete.berita', $b->id) }}" method="post" enctype="multipart/form-data" class="w-full">
+                          @csrf
+                          <button class="confirm" onclick="deletePopup($b->id)">Yakin</button>
+                        </form>
+
+                          <button class="cancel" onclick="closePopup()">Batal</button>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </a>
-              <a class="table-3" href="persiapan">
-                <div class="rectangle-2-3">
-                  <div class="text-5">
-                    Edit Tentang Pemilu
-                  </div>
-                </div>
-              </a> --}}
+                @endforeach
             </div>
           </div>
             <div class="rectangle-6">
             </div>
           </div>
+          
     </body>
+    <script>
+      const popup = document.getElementById("popup-container");
+
+      document.querySelectorAll(".delete-1").forEach((button) => {
+        button.addEventListener("click", () => {
+          popup.style.display = "flex";
+        });
+      });
+
+      function closePopup() {
+        popup.style.display = "none";
+      }
+
+      function deletePopup(id) {
+        closePopup();
+        window.location.href = "/delete+berita/" + id;
+      }
+    </script>
 </html>

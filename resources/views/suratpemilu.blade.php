@@ -12,7 +12,7 @@
 
         <!-- Styles -->
         {{-- <link rel="stylesheet" href="{{('assets/css/partai.css')}}" type="text/css"> --}}
-        <link rel="stylesheet" href="{{('assets/css/suratpemilu.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{url('assets/css/suratpemilu.css')}}" type="text/css">
         <style>
             
         </style>
@@ -44,14 +44,14 @@
             </div>
             <div class="rectangle-2">
               <div class="judul">
-                Macam - Macam Warna Surat Suara pada Pemilu 2024 dan Tujuannya
+                {{$tp->judul}}
               </div>
               <div class="desc">
-                Pada pemilu 2024 kali ini, terdapat 5 macam surat suara yang dibedakan menurut warnanya masing - masing, berikut adalah contoh surat suara dan juga jenis warnanya
+                {{$tp->deskripsi}}
               </div>
               <div class="rectangle-2-1">
                 <div class="gambar">
-                  <img class="desc-surat" src="/assets/suratpemilu.png"/>
+                  <img class="desc-surat" src="/assets/{{$tp->filename}}"/>
                 </div>
               </div>
             </div>

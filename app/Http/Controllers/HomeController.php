@@ -2,7 +2,18 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Controller;
+use Illuminate\Auth\Events\Registered;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Validation\Rules;
+use Illuminate\View\View;
+use App\Models\TentangPemilu;
+use App\Models\Berita;
+use App\Models\Partai;
+
 
 class HomeController extends Controller
 {
@@ -23,6 +34,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        //
     }
 }

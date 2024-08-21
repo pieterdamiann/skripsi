@@ -43,15 +43,48 @@
               Partai yang Tergabung dalam Pemilu 2024
             </div>
             <div class="rectangle-1">
-              <div class="rectangle-1-1">
-                <a href="/partaidetail">
+                {{-- @php $counter = 0 @endphp
+                @foreach ($partai as $p)
+                  @if( $counter % 5 === 0 && $counter !== 0) 
+                    <div class="rectangle-1-1">
+                      <a href="/partaidetail">
+                        <div class="pkb">
+                      </a>
+                      </div>
+                      <div class="gerindra">
+                      </div>
+                      <a href="/partai+pdip" class="pdip">
+                      </a>
+                      <div class="golkar">
+                      </div>
+                      <div class="nasdem">
+                      </div>
+                    </div>
+                  @endif
+                  @php $counter++ @endphp
+                @endforeach --}}
+                @foreach ($partai as $arr_partai)
+                  <div class="rectangle-1-1">
+                    @foreach ($arr_partai as $p)
+                      <a href="/partaidetail/{{ $p['id'] }}">
+                        <img style="background: url('/assets/{{ $p['filename'] }}') center / contain no-repeat;
+                        margin-right: 131px;
+                        width: 179px;
+                        height: 228px;
+                        object-fit: contain;
+                        border: none;">
+                      </a>
+                    @endforeach
+                  </div>
+                @endforeach
+                {{-- <a href="/partaidetail">
                   <div class="pkb">
                 </a>
                 </div>
                 <div class="gerindra">
                 </div>
-                <div class="pdip">
-                </div>
+                <a href="/partai+pdip" class="pdip">
+                </a>
                 <div class="golkar">
                 </div>
                 <div class="nasdem">
@@ -88,7 +121,7 @@
                 </div>
                 <div class="ummat">
                 </div>
-              </div>
+              </div> --}}
             </div>
           </div>
             <div class="rectangle-2">

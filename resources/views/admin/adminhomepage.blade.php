@@ -39,28 +39,37 @@
               Welcome Admin
             </div>
             <div class="rectangle-2">
-              <a class="table-1" href="/addberita">
+              <a class="table-1" href="/listberita">
                 <div class="rectangle-2-1">
                   <div class="text-3">
                     Edit Berita
                   </div>
                 </div>
               </a>
-              <a class="table-2" href="/addpartai">
+              <a class="table-2" href="/listpartai">
                 <div class="rectangle-2-2">
                   <div class="text-4">
                     Edit Partai
                   </div>
                 </div>
               </a>
-              <a class="table-3" href="/addtentangpemilu">
+              <a class="table-3" href="/listtp">
                 <div class="rectangle-2-3">
                   <div class="text-5">
                     Edit Tentang Pemilu
                   </div>
                 </div>
               </a>
+
             </div>
+            <div class="rectangle-2">
+              <a class="table-4" href="/listpartaianggota">
+                <div class="rectangle-3-1">
+                  <div class="text-6">
+                    Ubah Calon Anggota
+                  </div>
+                </div>
+              </a>
           </div>
             <div class="rectangle-6">
             </div>

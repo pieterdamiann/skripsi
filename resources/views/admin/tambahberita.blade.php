@@ -4,18 +4,23 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Admin Home</title>
+        <title>Tambah Berita</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{('assets/css/tambahberita.css')}}" type="text/css">
+        <link rel="preload" href="{{url('/assets/css/tambahberita.css')}}" as="style">
+        <link rel="stylesheet" href="{{url('/assets/css/tambahberita.css')}}" type="text/css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
     <body>
-      <form action="{{ route('add.berita')}}" method="POST" enctype=multipart/form-data>
+      @if (!isset($berita) || $berita == null)
+        <form action="{{ route('add.berita')}}" method="POST" enctype=multipart/form-data>
+      @else
+        <form action="{{ route('edit.berita', $berita->id)}}" method="POST" enctype=multipart/form-data>
+      @endif
         @csrf
         <div class="home">
           <div class="rectangle">
@@ -28,7 +33,11 @@
                   @csrf
                   <button class="rectangle-login" type="submit">
                     <span class="login">
-                      {{ __('Log Out') }}
+                      @auth
+                      Logout
+                      @else
+                        Login
+                      @endauth
                     </span>
                   </button>
                 </form>
@@ -36,46 +45,51 @@
             </div>
             <div class="rectangle-title">
                 <div class="name">
-                Tambah Berita
+                @if (!isset($berita) || $berita == null)
+                  Tambah Berita
+                @else
+                  Edit Berita
+                @endif
                 </div>
             </div>
-            <div class="rectangle-2">
+            @if (!isset($berita) || $berita == null)
+              <div class="rectangle-2">
                 <div class="rectangle-2-1">
                   <x-input-label for="judul" :value="__('Judul Berita*')" class="judul"/>
-                  <x-text-input id="judul" class="text-1" type="text" name="judul" :value="old('judul')" required autofocus/>
+                  <x-text-input id="judul" class="text-1" type="text" name="judul" required autofocus/>
                   <x-input-error :messages="$errors->get('judul')" class="mt-2" />
                 </div>
                 <div class="rectangle-2-2">
                   <x-input-label for="tanggal_terbit" :value="__('Hari dan Tanggal Penerbit*')" class="tanggal"/>
-                  <x-text-input id="tanggal_terbit" class="text-2" type="date" name="tanggal_terbit" :value="old('tanggal_terbit')" required autofocus/>
+                  <x-text-input id="tanggal_terbit" class="text-2" type="date" name="tanggal_terbit" required autofocus/>
                   <x-input-error :messages="$errors->get('tanggal_terbit')" class="mt-2" />
                 </div>
                 <div class="rectangle-2-3">
                   <x-input-label for="nama_penerbit" :value="__('Nama Penerbit*')" class="nama"/>
-                  <x-text-input id="nama_penerbit" class="text-3" type="text" name="nama_penerbit" :value="old('nama_penerbit')" required autofocus/>
+                  <x-text-input id="nama_penerbit" class="text-3" type="text" name="nama_penerbit" required autofocus/>
                   <x-input-error :messages="$errors->get('nama_penerbit')" class="mt-2" />
                 </div>
                 <div class="rectangle-2-4">
                   <x-input-label for="link" :value="__('Link')" class="link"/>
-                  <x-text-input id="link" class="text-4" type="text" name="link" :value="old('link')"/>
+                  <x-text-input id="link" class="text-4" type="text" name="link"/>
                   <x-input-error :messages="$errors->get('link')" class="mt-2" />
                 </div>
                 <div class="rectangle-2-5">
                   <x-input-label for="deskripsi" :value="__('Deskripsi*')" class="desc"/>
-                  <textarea cols="30" rows="10"  id="deskripsi" class="text-5" type="text" name="deskripsi" :value="old('deskripsi')" required autofocus></textarea>
+                  <textarea cols="30" rows="10"  id="deskripsi" class="text-5" name="deskripsi" required autofocus></textarea>
                   <x-input-error :messages="$errors->get('deskripsi')" class="mt-2" />
                 </div>
                 <div class="rectangle-2-6">
                     <div class="hnews">Berita Utama?*</div>
-                    <x-text-input id="berita_utama" class="text-4" type="hidden" name="berita_utama" required/>
+                    <x-text-input id="berita_utama" class="text-4" type="hidden" name="berita_utama" value="" required/>
                     <x-input-error :messages="$errors->get('berita_utama')" class="mt-2" />
-                    <button id="tombolcancel" class="rectangle-cancel" onclick="setBerita(null)" type="button" >Cancel</button>
-                    <button id="tombolya" class="rectangle-ya" onclick="setBerita('ya')" type="button">Ya</button>
-                    <button id="tomboltidak" class="rectangle-tidak" onclick="setBerita('tidak')" type="button">Tidak</button>
+                      <button id="tombolya" class="rectangle-ya" onclick="setBerita('ya')" type="button">Ya</button>
+                      <button id="tomboltidak" class="rectangle-tidak" onclick="setBerita('tidak')" type="button">Tidak</button>
+                      <button id="tombolcancel" class="rectangle-cancel" onclick="setBerita(null)" type="button" >Cancel</button>
                 </div>
                 <div class="rectangle-2-7">
                     <div class="gbr">Unggah Gambar</div>
-                    <input type="file" class="upload" name="filename" accept=".png, .jpg, .jpeg" onchange="previewImage(this)"></input>
+                    <x-text-input id="filename" class="upload" type="file" name="filename" accept=".png, .jpg, .jpeg" onchange="previewImage(this)" />
                 </div>
                 <div class="avatar-preview">
                   <div id="imagePreview" style="background-image: url('{{url('/assets/picture-icon.jpg')}}')"></div>
@@ -87,11 +101,71 @@
                     <button class="rectangle-submit">
                       Submit
                     </button>
-                    <button class="rectangle-batal" onclick="redirectToHomePage()">
+                    <a class="rectangle-batal" onclick="redirectToHomePage()">
                       Batal
-                    </button>
+                    </a>
                 </div>
-            </div>
+              </div>
+                @else
+                  <div class="rectangle-2">
+                    <div class="rectangle-2-1">
+                      <x-input-label for="judul" :value="__('Judul Berita*')" class="judul"/>
+                      <x-text-input id="judul" class="text-1" type="text" name="judul" :value="old('judul') ?? $berita->judul ?? ''" required autofocus/>
+                      <x-input-error :messages="$errors->get('judul')" class="mt-2" />
+                    </div>
+                    <div class="rectangle-2-2">
+                      <x-input-label for="tanggal_terbit" :value="__('Hari dan Tanggal Penerbit*')" class="tanggal"/>
+                      <x-text-input id="tanggal_terbit" class="text-2" type="date" name="tanggal_terbit" :value="old('tanggal_terbit') ?? $berita->tanggal_terbit ?? ''" required autofocus/>
+                      <x-input-error :messages="$errors->get('tanggal_terbit')" class="mt-2" />
+                    </div>
+                    <div class="rectangle-2-3">
+                      <x-input-label for="nama_penerbit" :value="__('Nama Penerbit*')" class="nama"/>
+                      <x-text-input id="nama_penerbit" class="text-3" type="text" name="nama_penerbit" :value="old('nama_penerbit') ?? $berita->nama_penerbit ?? ''" required autofocus/>
+                      <x-input-error :messages="$errors->get('nama_penerbit')" class="mt-2" />
+                    </div>
+                    <div class="rectangle-2-4">
+                      <x-input-label for="link" :value="__('Link')" class="link"/>
+                      <x-text-input id="link" class="text-4" type="text" name="link" :value="old('link') ?? $berita->link ?? ''"/>
+                      <x-input-error :messages="$errors->get('link')" class="mt-2" />
+                    </div>
+                    <div class="rectangle-2-5">
+                      <x-input-label for="deskripsi" :value="__('Deskripsi*')" class="desc"/>
+                      <textarea cols="30" rows="10"  id="deskripsi" class="text-5" name="deskripsi" required autofocus>{{ old('deskripsi') ?? $berita->deskripsi ?? '' }}</textarea>
+                      <x-input-error :messages="$errors->get('deskripsi')" class="mt-2" />
+                    </div>
+                    <div class="rectangle-2-6">
+                        <div class="hnews">Berita Utama?*</div>
+                        <x-text-input id="berita_utama" class="text-4" type="hidden" name="berita_utama" value="{{ $berita->berita_utama ?? '' }}" required/>
+                        <x-input-error :messages="$errors->get('berita_utama')" class="mt-2" />
+                          <button id="tombolya" class="rectangle-ya" onclick="setBerita('ya')" type="button">Ya</button>
+                          <button id="tomboltidak" class="rectangle-tidak" onclick="setBerita('tidak')" type="button">Tidak</button>
+                          <button id="tombolcancel" class="rectangle-cancel" onclick="setBerita(null)" type="button" >Cancel</button>
+                    </div>
+                    <div class="rectangle-2-7">
+                        <div class="gbr">Unggah Gambar</div>
+                        <x-text-input id="filename" class="upload" type="file" name="filename" accept=".png, .jpg, .jpeg" onchange="previewImage(this)" value="{{ $berita->filename ?? '' }}"/>
+                    </div>
+                    <div class="avatar-preview">
+                      @if ($berita->filename)
+                        <div id="imagePreview" style="background-image: url('{{url('/assets/'.$berita->filename)}}')"></div>
+                      @else
+                        <div id="imagePreview" style="background-image: url('{{url('/assets/picture-icon.jpg')}}')"></div>
+                      @endif
+                    </div>
+                    <div class="rectangle-2-8">
+                        <div class="text-6">Tanda * wajib diisi</div>
+                    </div>
+                    <div class="rectangle-2-9">
+                        <button class="rectangle-submit">
+                          Submit
+                        </button>
+                        <a class="rectangle-batal" onclick="redirectToHomePage()">
+                          Batal
+                        </a>
+                    </div>
+                </div>
+                @endif
+            
           </div>
             <div class="rectangle-6">
             </div>
@@ -106,12 +180,11 @@
         function setBerita(value){
           var set_berita_utama = document.getElementById('berita_utama');
           set_berita_utama.value = value;
-          console.log(set_berita_utama)
           toggleButton()
         }
 
         function redirectToHomePage() {
-            window.location.href = '/'; // URL to redirect to
+            window.location.href = '{{ route('listberita') }}';
         }
 
         function previewImage(file){
@@ -153,3 +226,5 @@
       </script>
     </body>
 </html>
+
+

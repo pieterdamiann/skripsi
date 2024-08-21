@@ -11,7 +11,7 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{('assets/css/adpartai.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{('assets/css/deletepartai.css')}}" type="text/css">
         <style>
             
         </style>
@@ -20,7 +20,7 @@
         <div class="home">
           <div class="rectangle">
             <div class="navbar">
-              <a class="logo1" href="/admin+homepage">
+              <a class="logo1" href="/admin">
               </a>
               <a class="text">For Admin</a>
               <div class="rbutton">

@@ -42,7 +42,19 @@
             Tentang Pemilu
         </div>
         <div class="rectangle-1">
-            <a class="table-1" href="suratpemilu">
+            @foreach ($tp as $t)
+              <a class="table-1" href="/detailpemilu/{{$t->id}}">
+                <div class="rectangle-1-1">
+                  <div class="warna-pada-surat-suara-pemilu">
+                      {{$t->judul}}
+                  </div>
+                  <div class="judul-surat">
+                    <img src="/assets/{{$t->filename}}" class="gambar">
+                  </div>
+                </div>
+              </a>
+            @endforeach
+            {{-- <a class="table-1" href="suratpemilu">
               <div class="rectangle-1-1">
                 <div class="warna-pada-surat-suara-pemilu">
                     Warna Pada Surat<br />
@@ -66,7 +78,7 @@
                     Apa yang Perlu dipersiapkan agar bisa terdaftar?
                 </span>
               </div>
-            </a>
+            </a> --}}
         </div>
       </div>
         <div class="rectangle-4">

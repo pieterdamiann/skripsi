@@ -21,7 +21,7 @@
             <div class="rectangle-1">
               <div class="rectangle-1-1">
                 <div class="rectangle-1-1-1">
-                  <a class="logo1" href="/admin+homepage">
+                  <a class="logo1" href="/admin">
                   </a>
                   <a class="text">For Admin</a>
                 </div>

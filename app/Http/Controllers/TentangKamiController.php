@@ -4,7 +4,16 @@ namespace App\Http\Controllers;
 
 use App\Models\TentangKami;
 use App\Http\Controllers\Controller;
+use Illuminate\Auth\Events\Registered;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Validation\Rules;
+use Illuminate\View\View;
+use App\Models\TentangPemilu;
+use App\Models\Berita;
+use App\Models\Partai;
 
 class TentangKamiController extends Controller
 {
@@ -13,7 +22,10 @@ class TentangKamiController extends Controller
      */
     public function index()
     {
-        //
+        $tp = TentangPemilu::paginate(3);
+        $b = Berita::where('berita_utama', 'ya')->first();
+        $p = Partai::paginate(4);
+        return view('home', compact('tp', 'b', 'p'));
     }
 
     /**

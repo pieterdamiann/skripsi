@@ -126,7 +126,11 @@ body{
   display: flex;
   flex-direction: row;
   width: 1450px;
-  box-sizing: border-box;
+  border: none;
+}
+.partai .rectangle-1-1 a {
+  text-decoration: none;
+  border: none;
 }
 .partai .pkb {
   background: url('/assets/partaipkb.png')50% / cover no-repeat;

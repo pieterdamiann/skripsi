@@ -12,7 +12,8 @@
 
         <!-- Styles -->
         {{-- <link rel="stylesheet" href="{{('assets/css/partai.css')}}" type="text/css"> --}}
-        <link rel="stylesheet" href="{{('assets/css/detailpartai.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{url('/assets/css/detailpartai.css')}}" type="text/css">
+
         <style>
             
         </style>
@@ -40,41 +41,45 @@
               </div>
               <div class="line-1"></div>
             <div class="partai-yang-tergabung-dalam-pemilu-2024">
-              Partai Demokrat Indonesia Perjuangan
+                {{$partai->partai}}
             </div>
             <div class="rectangle-1">
-                    <div class="pdip">
-                    </div>
+                        <img style="background: url('/assets/{{ $partai['filename'] }}') center / contain no-repeat;
+                            margin: 0 118px 9px 0;
+                            width: 307px;
+                            height: 347px;
+                        " >
                     <div class="rectangle-1-1">
                         <div class="kotak-1">
                             <div class="judul-1">Tahun Dibentuk</div>
                             <div class="titik-1">:</div>
-                            <div class="isi-1">10 Januari 1973</div>
+                            <div class="isi-1">{{ \Carbon\Carbon::parse($partai->tanggal_dibentuk)->translatedFormat('d F Y') }}
+                            </div>
                         </div>
                         <div class="kotak-2">
                             <div class="judul-2">Ketua Umum</div>
                             <div class="titik-2">:</div>
-                            <div class="isi-2">Megawati Soekarnoputri</div>
+                            <div class="isi-2">{{$partai->ketua_umum}}</div>
                         </div>
                         <div class="kotak-3">
                             <div class="judul-3">Kursi DPR</div>
                             <div class="titik-3">:</div>
-                            <div class="isi-3">128/575</div>
+                            <div class="isi-3">{{$partai->jumlah_kursi_dpr}}</div>
                         </div>
                         <div class="kotak-4">
                             <div class="judul-4">Kursi DPD</div>
                             <div class="titik-4">:</div>
-                            <div class="isi-4">418.2.232</div>
+                            <div class="isi-4">{{$partai->jumlah_kursi_dpd}}</div>
                         </div>
                         <div class="kotak-5">
                             <div class="judul-5">Kursi DPRD</div>
                             <div class="titik-5">:</div>
-                            <div class="isi-5">2.803/17.340</div>
+                            <div class="isi-5">{{$partai->jumlah_kursi_dprd}}</div>
                         </div>
                         <div class="kotak-6">
                             <div class="judul-6">Link Website</div>
                             <div class="titik-6">:</div>
-                            <div class="isi-6">https://www.pdiperjuangan.id/</div>
+                            <div class="isi-6">{{$partai->link}}</div>
                         </div>
                     </div>
             </div>
@@ -87,43 +92,18 @@
                   </tr>
               </thead>
               <tbody>
-                  <tr>
-                      <td>Muhammad Ikhsan</td>
-                      <td>Aceh</td>
-                      <td>1</td>
-                  </tr>
-                  <tr>
-                      <td>Muhammad Ikhsan</td>
-                      <td>Aceh</td>
-                      <td>1</td>
-                  </tr>
-                  <tr>
-                      <td>Muhammad Ikhsan</td>
-                      <td>Aceh</td>
-                      <td>1</td>
-                  </tr>
-                  <tr>
-                      <td>Muhammad Ikhsan</td>
-                      <td>Aceh</td>
-                      <td>1</td>
-                  </tr>
-                  <tr>
-                      <td>Muhammad Ikhsan</td>
-                      <td>Aceh</td>
-                      <td>1</td>
-                  </tr>
-                  <tr>
-                      <td>Muhammad Ikhsan</td>
-                      <td>Aceh</td>
-                      <td>1</td>
-                  </tr>
-                  <tr>
-                      <td>Muhammad Ikhsan</td>
-                      <td>Aceh</td>
-                      <td>1</td>
-                  </tr>
-              </tbody>
-          </table>
+                @foreach ($anggota as $ang)
+                    <tr>
+                        <td>{{$ang->nama_calon}}</td>
+                        <td>{{$ang->daerah_pilih}}</td>
+                        <td>{{$ang->nomor_urut}}</td>
+                    </tr>
+                @endforeach
+                </tbody>
+            </table>
+
+                {!! $anggota->links() !!}
+                                
             <div class="rectangle-3">
             </div>
           </div>

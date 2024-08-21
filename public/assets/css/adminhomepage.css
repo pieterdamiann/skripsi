@@ -83,7 +83,7 @@ body{
     color: #133611;
   }
   .home .rectangle-2 {
-    margin: 0 118px 112px 118px;
+    margin: 0 118px 50px 118px;
     display: flex;
     flex-direction: row;
     align-self: flex-start;
@@ -165,6 +165,41 @@ body{
     box-sizing: border-box;
   }
   .home .text-5 {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+  .home .rectangle-3 {
+    margin: 0 118px 112px 118px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    column-gap: 32px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .table-4{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .home .rectangle-3-1 {
+    border-radius: 20px;
+    background: #133611;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 48.4px;
+    width: 500px ;
+    height: 200px;
+    box-sizing: border-box;
+  }
+  .home .text-6 {
+    display: inline-block;
     text-align: center;
     overflow-wrap: break-word;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

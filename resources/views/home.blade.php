@@ -41,71 +41,39 @@
             <div class="berita-1">
               Berita
             </div>
-            <div class="rectangle-1">
-              <div class="text-1">
-                Presiden dan Wakil Presiden <br />
-                Periode 2024 - 2029
-              </div>
-              <div class="rectangle-1-1">
-                <img class="mask" src="/assets/prabowo.jpg" />
-                <img class="mask-1" src="/assets/gibran.jpg" />
-              </div>
-              <span class="text-2">
-                Prabowo Sugianto<br />
-                &amp;<br />
-                K. P. H. Gibran Rakabuming Raka, B.Sc.
-              </span>
+            <img class="rectangle-1" src="{{url('/assets/'.$b->filename)}}">
+              
             </div>
             <div class="tentang-pemilu-1">
               Tentang Pemilu
             </div>
               <div class="rectangle-2">
-                <a class="table-1" href="suratpemilu">
-                  <div class="rectangle-2-1">
-                    <div class="text-3">
-                      Warna Pada Surat<br />
-                      Suara Pemilu
+                @foreach ($tp as $t)
+                  <a class="table-1" href="/detailpemilu/{{$t->id}}">
+                    <div class="rectangle-2-1">
+                      <div class="warna-pada-surat-suara-pemilu">
+                          {{$t->judul}}
+                      </div>
+                      <div class="judul-surat">
+                        <img src="/assets/{{$t->filename}}" class="gambar">
+                      </div>
                     </div>
-                    <div class="judul-surat">
-                      <img src="/assets/judulsurat.png" class="gambar">
-                    </div>
-                  </div>
-                </a>
-                <a class="table-2" href="lokasicoblos">
-                  <div class="rectangle-2-2">
-                    <span class="text-5">
-                      Dimana lokasi saya dapat mencoblos?
-                    </span>
-                  </div>
-                </a>
-                <a class="table-3" href="persiapan">
-                  <div class="rectangle-2-3">
-                    <span class="text-6">
-                      Apa yang Perlu dipersiapkan agar bisa terdaftar?
-                    </span>
-                  </div>
-                </a>
+                  </a>
+                @endforeach
               </div>
             <div class="partai-1">
               Partai
             </div>
             <div class="rectangle-3">
-              <div class="rectangle-3-1">
-                <div class="pdip">
-                </div>
-              </div>
-              <div class="rectangle-3-2">
-                <div class="gerindra">
-                </div>
-              </div>
-              <div class="rectangle-3-3">
-                <div class="golkar">
-                </div>
-              </div>
-              <div class="rectangle-3-4">
-                <div class="psi">
-                </div>
-              </div>
+              @foreach ($p as $p)
+                  <a class="table-1" href="/partaidetail/{{$p->id}}">
+                    <div class="rectangle-3-1">
+                      <div style="background: url('/assets/{{$p->filename}}') 50% / contain no-repeat;
+                          width: 187px;
+                          height: 211px;"></div>
+                    </div>
+                  </a>
+                @endforeach
               <div class="rectangle-3-5">
                 <div class="text">
                   Lainnya

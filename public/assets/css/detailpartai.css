@@ -414,7 +414,7 @@ body{
     border-collapse: separate;
     font-size: 16px;
     text-align: left;
-    margin: 0 118px 112px 118px;
+    margin: 0 118px 20px 118px;
     display: flex;
     flex-direction: column;
     align-self: flex-start;
@@ -448,3 +448,55 @@ body{
   tbody tr:last-child {
       border: none;
   }
+
+  .pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-right:500px;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+}
+
+.pagination .page-item {
+    margin: 0 2px;
+}
+
+.pagination .page-item .page-link {
+    position: relative;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #133611;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    background-color: #fff;
+}
+
+.pagination .page-item.active .page-link {
+    color: #fff;
+    background-color: #133611;
+    border-color: #133611;
+    z-index: 1;
+}
+
+.pagination .page-link:hover {
+    background-color: #e9ecef;
+    color: #133611;
+    border-color: #dee2e6;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.pagination .page-item:first-child .page-link {
+    margin-right: 5px;
+}
+
+.pagination .page-item:last-child .page-link {
+    margin-left: 5px;
+}
