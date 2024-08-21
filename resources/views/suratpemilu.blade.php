@@ -57,7 +57,7 @@
             </div>
           </div>
               <div class="rectangle-3">
-                <a class="back" href="tentangpemilu">
+                <a class="back" href="/tentangpemilu">
                 <span class="lainnya">
                   Lainnya
                 </span>

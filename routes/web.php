@@ -23,7 +23,6 @@ route::get('/partai', [PartaiController::class, 'show'])->name('guestpartai');
 route::get('/partaidetail/{id}', [PartaiController::class, 'detail'])->name('detailpartai');
 route::get('/tentangpemilu', [TentangPemiluController::class, 'show'])->name('guesttp');
 route::get('/detailpemilu/{id}', [TentangPemiluController::class, 'detail'])->name('guesttpdetail');
-
 Route::middleware('guest')->group(function () {
 
     Route::get('register', [RegisteredUserController::class, 'create'])->name('register');
