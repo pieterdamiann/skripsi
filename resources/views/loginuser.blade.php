@@ -11,7 +11,7 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{('assets/css/loginuser.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{('assets/css/login.css')}}" type="text/css">
         <style>
             
         </style>
@@ -21,9 +21,8 @@
             <div class="rectangle-1">
               <div class="rectangle-1-1">
                 <div class="rectangle-1-1-1">
-                  <a class="logo1" href="/admin">
+                  <a class="logo1">
                   </a>
-                  <a class="text">For Admin</a>
                 </div>
                 <div class="selamat-datang">
                   Selamat Datang!
@@ -45,7 +44,7 @@
                 <p class="text-1">
                     Lupa Kata Sandi?
                   </p>
-                  <a class="rectangle-1-5" href="/admin+register">
+                  <a class="rectangle-1-5" href="/user+register">
                     <p class="text-2">
                       Belum Punya Akun? Daftar
                     </p>

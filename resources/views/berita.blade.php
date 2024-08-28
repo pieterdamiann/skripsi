@@ -19,24 +19,38 @@
     <body>
         <div class="berita">
           <div class="rectangle">
-              <div class="navbar">
-                <a class="logo1" href="/">
+            <div class="navbar">
+              <a class="logo1" href="/home">
+              </a>
+              <div class="rbutton">
+                <a class="masuk" href="/user+login">
+                  <div class="rectangle-login">
+                    <span class="login">
+                      Login
+                    </span>
+                  </div>
                 </a>
-                <div class="rbutton">
-                  <div class="berita1">
-                    <a href="/berita">Berita</a>
-                  </div>
-                  <div class="tentang-pemilu">
-                    <a href="/tentangpemilu">Tentang Pemilu</a>
-                  </div>
-                  <div class="partai">
-                    <a href="/partai">Partai</a>
-                  </div>
-                  <div class="tentang-kami">
-                    <a href="/tentangkami">Tentang Kami</a>
-                  </div>
+              </div>
+            </div>
+            <div class="rectangle-ext">
+              <div class="rectangle-isi">
+                <div class="berita1">
+                  <a href="/berita">Berita</a>
+                </div>
+                <div class="tentang-pemilu">
+                  <a href="/tentangpemilu">Tentang Pemilu</a>
+                </div>
+                <div class="partai">
+                  <a href="/partai">Partai</a>
+                </div>
+                <div class="forum">
+                  <a href="/forum">Forum</a>
+                </div>
+                <div class="tentang-kami">
+                  <a href="/tentangkami">Tentang Kami</a>
                 </div>
               </div>
+            </div>
               <div class="line-1"></div>
           <div class="rectangle--1">
             <div class="berita-2">
@@ -70,6 +84,8 @@
             </div>
             @endforeach
             @endif
+
+
             {{-- <div class="rectangle-2">
               <div class="text-4">
                 Pemerintah Antisipasi Dampak Ekonomi dari Konflik Iran Israel 
@@ -126,6 +142,8 @@
                 8 Maret 2024
               </span>
             </div> --}}
+
+
           </div>
           </div>
             <div class="rectangle-3">
