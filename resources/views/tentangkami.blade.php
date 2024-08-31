@@ -23,13 +23,24 @@
                 <a class="logo1" href="/">
                 </a>
                 <div class="rbutton">
-                  <a class="masuk" href="/user+login">
-                    <div class="rectangle-login">
+@auth
+                  <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+                    <button class="rectangle-login" type="submit">
                       <span class="login">
-                        Login
+                        Logout
                       </span>
-                    </div>
-                  </a>
+                    </button>
+                  </form>
+                  @else
+                    <a class="masuk" href="/login">
+                      <div class="rectangle-login">
+                        <span class="login">
+                          Login
+                        </span>
+                      </div>
+                    </a>
+                  @endauth
                 </div>
               </div>
               <div class="rectangle-ext">

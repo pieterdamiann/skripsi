@@ -23,13 +23,16 @@
               <a class="logo1" href="/">
               </a>
               <div class="rbutton">
-                <a class="masuk" href="/user+login">
-                  <div class="rectangle-login">
-                    <span class="login">
-                      Login
-                    </span>
-                  </div>
-                </a>
+                @auth
+                  @else
+                    <a class="masuk" href="/login">
+                      <div class="rectangle-login">
+                        <span class="login">
+                          Login
+                        </span>
+                      </div>
+                    </a>
+                  @endauth
               </div>
             </div>
             <div class="rectangle-ext">

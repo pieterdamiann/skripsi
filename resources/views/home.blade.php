@@ -23,13 +23,24 @@
                 <a class="logo1" href="/home">
                 </a>
                 <div class="rbutton">
-                  <a class="masuk" href="/admin+login">
-                    <div class="rectangle-login">
+@auth
+                  <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+                    <button class="rectangle-login" type="submit">
                       <span class="login">
-                        Login
+                        Logout
                       </span>
-                    </div>
-                  </a>
+                    </button>
+                  </form>
+                  @else
+                    <a class="masuk" href="/login">
+                      <div class="rectangle-login">
+                        <span class="login">
+                          Login
+                        </span>
+                      </div>
+                    </a>
+                  @endauth
                 </div>
               </div>
               <div class="rectangle-ext">
@@ -47,15 +58,18 @@
                 </div>
               </div>
             {{-- <div class="line-1"></div> --}}
+            @if (isset($b) && count($b) > 0)
             <div class="berita-1">
               Berita
             </div>
-            <img class="rectangle-1" src="{{url('/assets/'.$b->filename)}}">
+              <img class="rectangle-1" src="{{url('/assets/'.$b->filename)}}">
+            @endisset
               
             </div>
-            <div class="tentang-pemilu-1">
-              Tentang Pemilu
-            </div>
+            @if (isset($tp) && count($tp) > 0)
+                <div class="tentang-pemilu-1">
+                Tentang Pemilu
+              </div>
               <div class="rectangle-2">
                 @foreach ($tp as $t)
                   <a class="table-1" href="/detailpemilu/{{$t->id}}">
@@ -70,11 +84,13 @@
                   </a>
                 @endforeach
               </div>
+            @endisset
+            @if (isset($p) && count($p) > 0)
             <div class="partai-1">
               Partai
             </div>
             <div class="rectangle-3">
-              @foreach ($p as $p)
+                @foreach ($p as $p)
                   <a class="table-1" href="/partaidetail/{{$p->id}}">
                     <div class="rectangle-3-1">
                       <div style="background: url('/assets/{{$p->filename}}') 50% / contain no-repeat;
@@ -89,6 +105,7 @@
                 </div>
               </div>
             </div>
+            @endisset
             <div class="tentang-kami-1">
               Tentang Kami
             </div>

@@ -65,6 +65,8 @@
                 @foreach ($anggota as $ang)
                 <div class="line-2"></div>
                 <div class="info-1">
+                    <?php $id = $ang->id; ?>
+                  
                     <div class="text-11">{{$ang->nama_calon}}</div>
                     <div class="text-12">{{$ang->daerah_pilih}}</div>
                     <div class="text-13">{{$ang->nomor_urut}}</div>
@@ -85,9 +87,9 @@
                     <div class="popup">
                       <p>Apa anda yakin ingin menghapus Partai ini?</p>
                       <div class="buttons">
-                          <form id="form-hapus" action="{{ route('delete.anggota', ['partai_id' => $partai_id, 'id' => $ang->id+1]) }}" method="post" enctype="multipart/form-data" class="w-full">
+                          <form id="form-hapus" action="/pilih+partai/{{$partai_id}}/delete+anggota/{{$id}}" method="post" enctype="multipart/form-data" class="w-full">
                             @csrf
-                            <button class="confirm" onclick="deletePopup($partai_id, $ang->id+1)">Yakin</button>
+                            <button class="confirm" onclick="deletePopup($partai_id, $id)">Yakin</button>
                           </form>
                           <button class="cancel" onclick="closePopup()">Batal</button>
                       </div>

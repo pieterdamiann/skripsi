@@ -6,6 +6,8 @@ use App\Http\Controllers\PartaiController;
 use App\Http\Controllers\TentangPemiluController;
 use App\Http\Controllers\AnggotaController;
 use App\Http\Controllers\TentangKamiController;
+use App\Http\Controllers\ForumController;
+use App\Http\Controllers\CommentController;
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\Auth\ConfirmablePasswordController;
 use App\Http\Controllers\Auth\EmailVerificationNotificationController;
@@ -17,14 +19,12 @@ use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\Auth\VerifyEmailController;
 use Illuminate\Support\Facades\Route;
 
-route::get('/home', [TentangKamiController::class, 'index'])->name('guesthome');
-route::get('/berita', [BeritaController::class, 'show'])->name('guestberita');
-route::get('/partai', [PartaiController::class, 'show'])->name('guestpartai');
-route::get('/partaidetail/{id}', [PartaiController::class, 'detail'])->name('detailpartai');
-route::get('/tentangpemilu', [TentangPemiluController::class, 'show'])->name('guesttp');
-route::get('/detailpemilu/{id}', [TentangPemiluController::class, 'detail'])->name('guesttpdetail');
-Route::middleware('guest')->group(function () {
+Route::fallback(function () {
+    return redirect()->route('guesthome');
+});
 
+Route::middleware('guest')->group(function () {
+    Route::redirect('/', '/login');
     Route::get('register', [RegisteredUserController::class, 'create'])->name('register');
     Route::post('register', [RegisteredUserController::class, 'store']);
     Route::get('login', [AuthenticatedSessionController::class, 'create'])->name('login');
@@ -32,66 +32,62 @@ Route::middleware('guest')->group(function () {
 });
 
 Route::middleware('auth')->group(function () {
+    Route::redirect('/', '/home');
     Route::get('confirm-password', [ConfirmablePasswordController::class, 'show'])->name('password.confirm');
     Route::post('confirm-password', [ConfirmablePasswordController::class, 'store']);
     Route::put('password', [PasswordController::class, 'update'])->name('password.update');
     Route::post('logout', [AuthenticatedSessionController::class, 'destroy'])->name('logout');
-});
-
-Route::get('/admin', function () {
-    return view('admin.adminhomepage');
-})->middleware(['auth', 'verified'])->name('dashboard');
-
-Route::middleware('auth')->group(function () {
-    route::get('/addberita', [BeritaController::class, 'create'])->name('berita');
-    route::post('/addberita', [BeritaController::class, 'store'])->name('add.berita');
-    route::get('/listberita', [BeritaController::class, 'list'])->name('listberita');
-    route::get('/edit+berita/{id}', [BeritaController::class, 'edit'])->name('editberita');
-    route::post('/edit+berita/{id}', [BeritaController::class, 'update'])->name('edit.berita');
-    route::post('/delete+berita/{id}', [BeritaController::class, 'destroy'])->name('delete.berita');
+    route::get('/home', [TentangKamiController::class, 'index'])->name('guesthome');
+    route::get('/berita', [BeritaController::class, 'show'])->name('guestberita');
+    route::get('/partai', [PartaiController::class, 'show'])->name('guestpartai');
+    route::get('/partaidetail/{id}', [PartaiController::class, 'detail'])->name('detailpartai');
+    route::get('/tentangpemilu', [TentangPemiluController::class, 'show'])->name('guesttp');
+    route::get('/detailpemilu/{id}', [TentangPemiluController::class, 'detail'])->name('guesttpdetail');
+    route::get('/tentangkami', [TentangKamiController::class, 'show'])->name('guesttk');
     
-    route::get('/addpartai', [PartaiController::class, 'create'])->name('partai');
-    route::post('/addpartai', [PartaiController::class, 'store'])->name('add.partai');
-    route::get('/listpartai', [PartaiController::class, 'list'])->name('listpartai');
-    route::get('/edit+partai/{id}', [PartaiController::class, 'edit'])->name('editpartai');
-    route::post('/edit+partai/{id}', [PartaiController::class, 'update'])->name('edit.partai');
-    route::post('/delete+partai/{id}', [PartaiController::class, 'destroy'])->name('delete.partai');
+    route::get('/tambah+forum', [ForumController::class, 'create'])->name('add.forum.page');
+    route::post('/tambah+forum', [ForumController::class, 'store'])->name('add.forum');
+    route::get('/forum', [ForumController::class, 'show'])->name('forum');
+    route::get('/forum+satu/{id}', [ForumController::class, 'detail'])->name('detail.forum');
+    route::post('/delete+forum/{id}', [ForumController::class, 'destroy'])->name('delete.forum');
 
-    route::get('/addtp', [TentangPemiluController::class, 'create'])->name('tp');
-    route::post('/addtp', [TentangPemiluController::class, 'store'])->name('add.tp');
-    route::get('/listtp', [TentangPemiluController::class, 'list'])->name('listtp');
-    route::get('/edit+tp/{id}', [TentangPemiluController::class, 'edit'])->name('edittp');
-    route::post('/edit+tp/{id}', [TentangPemiluController::class, 'update'])->name('edit.tp');
-    route::post('/delete+tp/{id}', [TentangPemiluController::class, 'destroy'])->name('delete.tp');
-    
-    route::get('/pilih+partai/{partai_id}/addanggota', [AnggotaController::class, 'create'])->name('anggota');
-    route::post('/pilih+partai/{partai_id}/addanggota', [AnggotaController::class, 'store'])->name('add.anggota');
-    route::get('/listanggota/{partai_id}', [AnggotaController::class, 'listanggota'])->name('listanggota');
-    route::get('/listpartaianggota', [AnggotaController::class, 'list'])->name('listpartai');
-    route::get('/pilih+partai/{partai_id}/edit+anggota/{id}', [AnggotaController::class, 'edit'])->name('edit.anggota');
-    route::post('/pilih+partai/{partai_id}/edit+anggota/{id}', [AnggotaController::class, 'update'])->name('edit.anggota');
-    route::post('/pilih+partai/{partai_id}/delete+anggota/{id}', [AnggotaController::class, 'destroy'])->name('delete.anggota');
+    route::post('/tambah+comment', [CommentController::class, 'store'])->name('add.comment');
 
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    if (auth()->user() !== null && auth()->user()->is_admin == 1) {
+        Route::get('/admin', function () {
+            return view('admin.adminhomepage');
+        });
+        route::get('/addberita', [BeritaController::class, 'create'])->name('berita');
+        route::post('/addberita', [BeritaController::class, 'store'])->name('add.berita');
+        route::get('/listberita', [BeritaController::class, 'list'])->name('listberita');
+        route::get('/edit+berita/{id}', [BeritaController::class, 'edit'])->name('editberita');
+        route::post('/edit+berita/{id}', [BeritaController::class, 'update'])->name('edit.berita');
+        route::post('/delete+berita/{id}', [BeritaController::class, 'destroy'])->name('delete.berita');
+        
+        route::get('/addpartai', [PartaiController::class, 'create'])->name('partai');
+        route::post('/addpartai', [PartaiController::class, 'store'])->name('add.partai');
+        route::get('/listpartai', [PartaiController::class, 'list'])->name('listpartai');
+        route::get('/edit+partai/{id}', [PartaiController::class, 'edit'])->name('editpartai');
+        route::post('/edit+partai/{id}', [PartaiController::class, 'update'])->name('edit.partai');
+        route::post('/delete+partai/{id}', [PartaiController::class, 'destroy'])->name('delete.partai');
 
-});
+        route::get('/addtp', [TentangPemiluController::class, 'create'])->name('tp');
+        route::post('/addtp', [TentangPemiluController::class, 'store'])->name('add.tp');
+        route::get('/listtp', [TentangPemiluController::class, 'list'])->name('listtp');
+        route::get('/edit+tp/{id}', [TentangPemiluController::class, 'edit'])->name('edittp');
+        route::post('/edit+tp/{id}', [TentangPemiluController::class, 'update'])->name('edit.tp');
+        route::post('/delete+tp/{id}', [TentangPemiluController::class, 'destroy'])->name('delete.tp');
+        
+        route::get('/pilih+partai/{partai_id}/addanggota', [AnggotaController::class, 'create'])->name('anggota');
+        route::post('/pilih+partai/{partai_id}/addanggota', [AnggotaController::class, 'store'])->name('add.anggota');
+        route::get('/listanggota/{partai_id}', [AnggotaController::class, 'listanggota'])->name('listanggota');
+        route::get('/listpartaianggota', [AnggotaController::class, 'list'])->name('listpartai');
+        route::get('/pilih+partai/{partai_id}/edit+anggota/{id}', [AnggotaController::class, 'edit'])->name('edit.anggota');
+        route::post('/pilih+partai/{partai_id}/edit+anggota/{id}', [AnggotaController::class, 'update'])->name('edit.anggota');
+        route::post('/pilih+partai/{partai_id}/delete+anggota/{id}', [AnggotaController::class, 'destroy'])->name('delete.anggota');
 
-Route::get('/user+login', function () {
-    return view('loginuser');
-});
-
-Route::get('/user+register', function () {
-    return view('registeruser');
-});
-
-Route::get('/home+forum', function () {
-    return view('homeforum');
-});
-Route::get('/tambah+forum', function () {
-    return view('tambahforum');
-});
-Route::get('/forum+satu', function () {
-    return view('forumsatu');
+        Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+        Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+        Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    }
 });

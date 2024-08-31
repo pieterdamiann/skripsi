@@ -25,7 +25,7 @@
               </a>
               <a class="text">For Admin</a>
               <div class="rbutton">
-                <a class="masuk" href="/admin+login">
+                <a class="masuk" href="/login">
                   <div class="rectangle-login">
                     <span class="login">
                       Login
