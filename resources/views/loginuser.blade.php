@@ -44,7 +44,7 @@
                 <p class="text-1">
                     Lupa Kata Sandi?
                   </p>
-                  <a class="rectangle-1-5" href="/user+register">
+                  <a class="rectangle-1-5" href="/register">
                     <p class="text-2">
                       Belum Punya Akun? Daftar
                     </p>

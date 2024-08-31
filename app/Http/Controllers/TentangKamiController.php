@@ -49,8 +49,8 @@ class TentangKamiController extends Controller
      */
     public function show(TentangKami $tentangKami)
     {
-
-    }   //
+        return view('tentangkami');
+    }   
 
     /**
      * Show the form for editing the specified resource.

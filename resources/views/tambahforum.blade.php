@@ -18,19 +18,35 @@
         </style>
     </head>
     <body>
+      @if (!isset($forum) || $forum == null)
+        <form action="{{ route('add.forum')}}" method="POST" enctype=multipart/form-data>
+      @else
+        <form action="{{ route('edit.forum', $forum->id)}}" method="POST" enctype=multipart/form-data>
+      @endif
         <div class="home">
           <div class="rectangle">
             <div class="navbar">
                 <a class="logo1" href="/home">
                 </a>
                 <div class="rbutton">
-                  <a class="masuk" href="/admin+login">
-                    <div class="rectangle-login">
+@auth
+                  <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+                    <button class="rectangle-login" type="submit">
                       <span class="login">
-                        Login
+                        Logout
                       </span>
-                    </div>
-                  </a>
+                    </button>
+                  </form>
+                  @else
+                    <a class="masuk" href="/login">
+                      <div class="rectangle-login">
+                        <span class="login">
+                          Login
+                        </span>
+                      </div>
+                    </a>
+                  @endauth
                 </div>
               </div>
               <div class="rectangle-ext">
@@ -58,40 +74,52 @@
                 Tambah Forum
                 </div>
             </div>
-            <div class="rectangle-2">
+            @if (!isset($forum) || $forum == null)
+              <div class="rectangle-2">
                 <div class="rectangle-2-1">
-                    <div class="judul">Judul Forum*</div>
-                    <input type="text" class="text-1"></input>
+                    <x-input-label for="judul" :value="__('Judul Forum*')" class="judul"/>
+                    <x-text-input id="judul" class="text-1" type="text" name="judul" required autofocus/>
+                    <x-input-error :messages="$errors->get('judul')" class="mt-2" />
                 </div>
-                {{-- <div class="rectangle-2-2">
-                    <div class="tanggal">Hari dan Tanggal Penerbit*</div>
-                    <input type="date" class="text-2"></input>
-                </div> --}}
                 <div class="rectangle-2-3">
-                    <div class="nama">Nama Penerbit*</div>
-                    <input type="text" class="text-3"></input>
+                  <x-input-label for="penulis" :value="__('Nama Penerbit*')" class="nama"/>
+                  <x-text-input id="penulis" class="text-3" type="text" name="penulis" required autofocus/>
+                  <x-input-error :messages="$errors->get('penulis')" class="mt-2" />
                 </div>
-                {{-- <div class="rectangle-2-4">
-                    <div class="link">Link</div>
-                    <input type="text" class="text-4"></input>
-                </div> --}}
                 <div class="rectangle-2-5">
-                    <div class="desc">Deskripsi*</div>
-                    <input type="text" class="text-5"></input>
+                  <x-input-label for="deskripsi" :value="__('Deskripsi*')" class="desc"/>
+                  <x-text-input id="deskripsi" class="text-5" type="text" name="deskripsi" required autofocus/>
+                  <x-input-error :messages="$errors->get('deskripsi')" class="mt-2" />
                 </div>
-                {{-- <div class="rectangle-2-6">
-                    <div class="hnews">Berita Utama?*</div>
-                    <div class="rectangle-ya">
-                        <div class="ya">Ya</div>
-                    </div>
-                    <div class="rectangle-tidak">
-                        <div class="tidak">Tidak</div>
-                    </div>
+                <div class="rectangle-2-8">
+                    <div class="text-6">Tanda * wajib diisi</div>
                 </div>
-                <div class="rectangle-2-7">
-                    <div class="gbr">Unggah Gambar</div>
-                    <input type="file" class="upload"></input>
-                </div> --}}
+                <div class="rectangle-2-9">
+                  <button class="rectangle-submit">
+                    Submit
+                  </button>
+                  <a class="rectangle-batal" onclick="redirectToHomePage()">
+                    Batal
+                  </a>
+                </div>
+              </div>
+              @else
+                <div class="rectangle-2">
+                <div class="rectangle-2-1">
+                    <x-input-label for="judul" :value="__('Judul Forum*')" class="judul"/>
+                    <x-text-input id="judul" class="text-1" type="text" name="judul" value="{{ old('judul') ?? $forum->judul ?? '' }}" required autofocus/>
+                    <x-input-error :messages="$errors->get('judul')" class="mt-2" />
+                </div>
+                <div class="rectangle-2-3">
+                  <x-input-label for="penulis" :value="__('Nama Penerbit*')" class="nama"/>
+                  <x-text-input id="penulis" class="text-3" type="text" name="penulis" value="{{ old('penulis') ?? $forum->penulis ?? '' }}" required autofocus/>
+                  <x-input-error :messages="$errors->get('penulis')" class="mt-2" />
+                </div>
+                <div class="rectangle-2-5">
+                  <x-input-label for="deskripsi" :value="__('Deskripsi*')" class="desc"/>
+                  <x-text-input id="deskripsi" class="text-5" type="text" name="deskripsi" value="{{ old('deskripsi') ?? $forum->deskripsi ?? '' }}" required autofocus/>
+                  <x-input-error :messages="$errors->get('deskripsi')" class="mt-2" />
+                </div>
                 <div class="rectangle-2-8">
                     <div class="text-6">Tanda * wajib diisi</div>
                 </div>
@@ -103,10 +131,16 @@
                         <div class="batal">Batal</div>
                     </div>
                 </div>
+              </div>
+              @endif
             </div>
-          </div>
             <div class="rectangle-6">
             </div>
           </div>
     </body>
+    <script>
+      function redirectToHomePage() {
+        window.location.href = '{{ route('forum') }}';
+      }
+    </script>
 </html>

@@ -11,7 +11,7 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{('assets/css/forumsatu.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{url('assets/css/forumsatu.css')}}" type="text/css">
         <style>
             
         </style>
@@ -23,13 +23,24 @@
                 <a class="logo1" href="/home">
                 </a>
                 <div class="rbutton">
-                  <a class="masuk" href="/admin+login">
-                    <div class="rectangle-login">
+@auth
+                  <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+                    <button class="rectangle-login" type="submit">
                       <span class="login">
-                        Login
+                        Logout
                       </span>
-                    </div>
-                  </a>
+                    </button>
+                  </form>
+                  @else
+                    <a class="masuk" href="/login">
+                      <div class="rectangle-login">
+                        <span class="login">
+                          Login
+                        </span>
+                      </div>
+                    </a>
+                  @endauth
                 </div>
               </div>
               <div class="rectangle-ext">
@@ -69,49 +80,42 @@
               <div class="rectangle-2">
                 <div class="rectangle--2">
                     <div class="text-4">
-                    Pemerintah Antisipasi Dampak Ekonomi dari Konflik Iran Israel 
+                      {{$forum->judul}}
                     </div>
-                    <a class="trash" href="/hapus"></a>
+                    <button type="submit" class="delete-1" style="background: none; border: none; cursor: pointer; color: #133611;">
+                      <img src="/assets/trashijo.png" alt="" style="width: 20px; height: 20px;">
+                    </button>
                 </div>
                 <span class="text-4-1">
-                  dari Joko Widodo
+                  dari {{$forum->penulis}}
                 </span>
                 <span class="text-4-2">
-                    Saya sangat senang dengan kegaduhan yang disebabkan oleh keluarga besar saya, 
-                    tetapi saya ingin meminta pendapat kalian mengenai 
-                    keputusan yang sudah saya rencanakan selama ini. apakah ini keputusan yang seru?
+                    {{$forum->deskripsi}}
                 </span>
               </div>
                 <div class="rectangle-2-1">
-                  <span class="text-4-1">
-                    Komentar Saya......
-                  </span>
-                  <a class="send"></a>
+                  <form action="{{ route('add.comment') }}" method="post" enctype="multipart/form-data" style="display: flex; flex-direction: row;">
+                    @csrf
+                    <input type="hidden" name="forum_id" value="{{$forum->id}}">
+                    <input type="hidden" name="penulis" value="{{ Auth::user()->nama_depan }} {{ Auth::user()->nama_belakang }}">
+                    <textarea placeholder="Komentar Saya......" class="text-4-1" name="comment" rows="5" style="flex: 1;"></textarea>
+                    <button type="submit" style="background: none; border: none; cursor: pointer; color: #133611;">
+                      <img src="/assets/sendijo.png" alt="" style="width: 20px; height: 20px;">
+                    </button>
+                  </form>
                 </div>
-                <div class="rectangle-2-2">
-                  <div class="text-4">
-                    Benjamin
+                @isset($comments)
+                  @foreach ($comments as $comment)
+                  <div class="rectangle-2-2">
+                    <div class="text-4">
+                      {{$comment->penulis}}
+                    </div>
+                    <span class="text-4-1">
+                      {{$comment->comment}}
+                    </span>
                   </div>
-                  <span class="text-4-1">
-                    Keputusan yang diambil sangat tidak masuk akal karena sangat menguntungkan keluarga presiden.
-                  </span>
-                </div>
-                <div class="rectangle-2-2">
-                  <div class="text-4">
-                    May 
-                  </div>
-                  <span class="text-4-1">
-                    Hal ini sangat menganggu masyarakat karena menimbulkan keresahan.
-                  </span>
-                </div>
-                <div class="rectangle-2-2">
-                  <div class="text-4">
-                    Tony Stark
-                  </div>
-                  <span class="text-4-1">
-                    Saya membenci dinasti keluarga ini!
-                  </span>
-                </div>
+                  @endforeach
+                @endisset
   
             {{-- <div class="line-1"></div> --}}
             {{-- <div class="berita-1">
@@ -196,5 +200,36 @@
             <div class="rectangle-6">
             </div>
           </div>
+          <div class="popup-container" id="popup-container">
+            <div class="popup">
+              <p>Apa anda yakin ingin menghapus Forum ini?</p>
+              <div class="buttons">
+                <form id="form-hapus" action="{{ route('delete.forum', $forum->id) }}" method="post" enctype="multipart/form-data" class="w-full">
+                  @csrf
+                  <button class="confirm" onclick="deletePopup($forum->id)">Yakin</button>
+                </form>
+
+                  <button class="cancel" onclick="closePopup()">Batal</button>
+              </div>
+            </div>
+          </div>
     </body>
+    <script>
+      const popup = document.getElementById("popup-container");
+
+      document.querySelectorAll(".delete-1").forEach((button) => {
+        button.addEventListener("click", () => {
+          popup.style.display = "flex";
+        });
+      });
+
+      function closePopup() {
+        popup.style.display = "none";
+      }
+
+      function deletePopup(id) {
+        closePopup();
+        window.location.href = "/delete+forum/" + id;
+      }
+    </script>
 </html>
