@@ -4,59 +4,66 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Login</title>
+        <title>Register</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{('assets/css/loginuser.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{('assets/css/registeruser.css')}}" type="text/css">
         <style>
             
         </style>
     </head>
     <body>
-        <div class="login-page">
+        <div class="register-page">
             <div class="rectangle-1">
               <div class="rectangle-1-1">
                 <div class="rectangle-1-1-1">
-                  <a class="logo1" href="/admin">
+                  <a class="logo1">
                   </a>
-                  <a class="text">For Admin</a>
                 </div>
                 <div class="selamat-datang">
                   Selamat Datang!
                 </div>
               </div>
               <div class="rectangle-1-2">
+                <div class="nama-depan">
+                  Nama Depan
+                </div>
+                <input type="text" class="rectangle-1-2-1"></input>
+              </div>
+              <div class="rectangle-1-3">
+                <div class="nama-belakang">
+                  Nama Belakang
+                </div>
+                <input type="text" class="rectangle-1-3-1"></input>
+              </div>
+              <div class="rectangle-1-4">
                 <div class="email">
                   Email
                 </div>
-                <input type="text" autocomplete="false" class="rectangle-1-2-1"></input>
+                <input type="text" class="rectangle-1-4-1"></input>
               </div>
-              <div class="rectangle-1-3">
+              <div class="rectangle-1-5">
                 <div class="kata-sandi">
                   Kata sandi
                 </div>
-                <input type="password" autocomplete="false" class="rectangle-1-3-1"></input>
+                <input type="password" class="rectangle-1-5-1"></input>
               </div>
-              <div class="rectangle-1-4">
-                <p class="text-1">
-                    Lupa Kata Sandi?
-                  </p>
-                  <a class="rectangle-1-5" href="/admin+register">
-                    <p class="text-2">
-                      Belum Punya Akun? Daftar
-                    </p>
-                  </a>
-            </div>
-              <div class="rectangle-2">
-                <span class="masuk">
-                  Masuk
+              <div class="rectangle-1-6">
+                <div class="konfirmasi-kata-sandi">
+                  Konfirmasi Kata sandi
+                </div>
+                <input type="password" class="rectangle-1-6-1"></input>
+              </div>
+              <div class="rectangle-1-7">
+                <span class="daftar">
+                  Daftar
                 </span>
               </div>
-              <div class="rectangle-3">
+              <div class="rectangle-2">
                 <div class="powered-by">
                   Powered by
                 </div>

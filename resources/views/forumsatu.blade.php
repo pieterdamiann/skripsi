@@ -11,7 +11,7 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{('assets/css/home.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{('assets/css/forumsatu.css')}}" type="text/css">
         <style>
             
         </style>
@@ -33,21 +33,88 @@
                 </div>
               </div>
               <div class="rectangle-ext">
-                <div class="berita">
-                  <a href="/berita">Berita</a>
-                </div>
-                <div class="tentang-pemilu">
-                  <a href="/tentangpemilu">Tentang Pemilu</a>
-                </div>
-                <div class="partai">
-                  <a href="/partai">Partai</a>
-                </div>
-                <div class="tentang-kami">
-                  <a href="/tentangkami">Tentang Kami</a>
-                </div>
+                <div class="rectangle-isi">
+                    <div class="berita">
+                      <a href="/berita">Berita</a>
+                    </div>
+                    <div class="tentang-pemilu">
+                      <a href="/tentangpemilu">Tentang Pemilu</a>
+                    </div>
+                    <div class="partai">
+                      <a href="/partai">Partai</a>
+                    </div>
+                    <div class="forum">
+                      <a href="/forum">Forum</a>
+                    </div>
+                    <div class="tentang-kami">
+                      <a href="/tentangkami">Tentang Kami</a>
+                    </div>
+                  </div>
               </div>
+              <div class="line-1"></div>
+              <div class="rectangle--1">
+                <div class="berita-2">
+                    Forum
+                </div>
+                {{-- <div class="rbutton-2">
+                    <a class="tambah" href="/tambah+forum">
+                    <div class="rectangle-tambah">
+                        <span class="add">
+                        + Tambah Forum
+                        </span>
+                    </div>
+                    </a>
+                </div> --}}
+              </div>
+              <div class="rectangle-2">
+                <div class="rectangle--2">
+                    <div class="text-4">
+                    Pemerintah Antisipasi Dampak Ekonomi dari Konflik Iran Israel 
+                    </div>
+                    <a class="trash" href="/hapus"></a>
+                </div>
+                <span class="text-4-1">
+                  dari Joko Widodo
+                </span>
+                <span class="text-4-2">
+                    Saya sangat senang dengan kegaduhan yang disebabkan oleh keluarga besar saya, 
+                    tetapi saya ingin meminta pendapat kalian mengenai 
+                    keputusan yang sudah saya rencanakan selama ini. apakah ini keputusan yang seru?
+                </span>
+              </div>
+                <div class="rectangle-2-1">
+                  <span class="text-4-1">
+                    Komentar Saya......
+                  </span>
+                  <a class="send"></a>
+                </div>
+                <div class="rectangle-2-2">
+                  <div class="text-4">
+                    Benjamin
+                  </div>
+                  <span class="text-4-1">
+                    Keputusan yang diambil sangat tidak masuk akal karena sangat menguntungkan keluarga presiden.
+                  </span>
+                </div>
+                <div class="rectangle-2-2">
+                  <div class="text-4">
+                    May 
+                  </div>
+                  <span class="text-4-1">
+                    Hal ini sangat menganggu masyarakat karena menimbulkan keresahan.
+                  </span>
+                </div>
+                <div class="rectangle-2-2">
+                  <div class="text-4">
+                    Tony Stark
+                  </div>
+                  <span class="text-4-1">
+                    Saya membenci dinasti keluarga ini!
+                  </span>
+                </div>
+  
             {{-- <div class="line-1"></div> --}}
-            <div class="berita-1">
+            {{-- <div class="berita-1">
               Berita
             </div>
             <img class="rectangle-1" src="{{url('/assets/'.$b->filename)}}">
@@ -124,7 +191,7 @@
                   </input>
                 </div>
               </div>
-            </div>
+            </div> --}}
           </div>
             <div class="rectangle-6">
             </div>

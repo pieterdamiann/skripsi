@@ -24,6 +24,17 @@
             <a class="logo1" href="/">
             </a>
             <div class="rbutton">
+              <a class="masuk" href="/user+login">
+                <div class="rectangle-login">
+                  <span class="login">
+                    Login
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="rectangle-ext">
+            <div class="rectangle-isi">
               <div class="berita">
                 <a href="/berita">Berita</a>
               </div>
@@ -33,10 +44,14 @@
               <div class="partai">
                 <a href="/partai">Partai</a>
               </div>
+              <div class="forum">
+                <a href="/forum">Forum</a>
+              </div>
               <div class="tentang-kami">
                 <a href="/tentangkami">Tentang Kami</a>
               </div>
             </div>
+          </div>
           </div>
           <div class="line-1"></div>
             <div class="tentang-pemilu-2">

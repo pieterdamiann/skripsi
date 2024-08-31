@@ -17,7 +17,7 @@ use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\Auth\VerifyEmailController;
 use Illuminate\Support\Facades\Route;
 
-route::get('/', [TentangKamiController::class, 'index'])->name('guesthome');
+route::get('/home', [TentangKamiController::class, 'index'])->name('guesthome');
 route::get('/berita', [BeritaController::class, 'show'])->name('guestberita');
 route::get('/partai', [PartaiController::class, 'show'])->name('guestpartai');
 route::get('/partaidetail/{id}', [PartaiController::class, 'detail'])->name('detailpartai');
@@ -76,4 +76,22 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
+});
+
+Route::get('/user+login', function () {
+    return view('loginuser');
+});
+
+Route::get('/user+register', function () {
+    return view('registeruser');
+});
+
+Route::get('/home+forum', function () {
+    return view('homeforum');
+});
+Route::get('/tambah+forum', function () {
+    return view('tambahforum');
+});
+Route::get('/forum+satu', function () {
+    return view('forumsatu');
 });
