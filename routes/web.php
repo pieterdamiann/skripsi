@@ -20,7 +20,7 @@ use App\Http\Controllers\Auth\VerifyEmailController;
 use Illuminate\Support\Facades\Route;
 
 Route::fallback(function () {
-    return redirect()->route('guesthome');
+    return redirect()->route('home');
 });
 
 Route::middleware('guest')->group(function () {
@@ -37,7 +37,7 @@ Route::middleware('auth')->group(function () {
     Route::post('confirm-password', [ConfirmablePasswordController::class, 'store']);
     Route::put('password', [PasswordController::class, 'update'])->name('password.update');
     Route::post('logout', [AuthenticatedSessionController::class, 'destroy'])->name('logout');
-    route::get('/home', [TentangKamiController::class, 'index'])->name('guesthome');
+    route::get('/home', [TentangKamiController::class, 'index'])->name('home');
     route::get('/berita', [BeritaController::class, 'show'])->name('guestberita');
     route::get('/partai', [PartaiController::class, 'show'])->name('guestpartai');
     route::get('/partaidetail/{id}', [PartaiController::class, 'detail'])->name('detailpartai');

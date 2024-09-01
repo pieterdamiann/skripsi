@@ -82,9 +82,11 @@
                     <div class="text-4">
                       {{$forum->judul}}
                     </div>
-                    <button type="submit" class="delete-1" style="background: none; border: none; cursor: pointer; color: #133611;">
-                      <img src="/assets/trashijo.png" alt="" style="width: 20px; height: 20px;">
-                    </button>
+                    @if (Auth::user()->nama_depan . ' ' . Auth::user()->nama_belakang == $forum->penulis)
+                        <button type="submit" class="delete-1" style="background: none; border: none; cursor: pointer; color: #133611;">
+                          <img src="/assets/trashijo.png" alt="" style="width: 20px; height: 20px;">
+                        </button>
+                    @endif
                 </div>
                 <span class="text-4-1">
                   dari {{$forum->penulis}}

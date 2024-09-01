@@ -83,7 +83,7 @@
                 </div>
                 <div class="rectangle-2-3">
                   <x-input-label for="penulis" :value="__('Nama Penerbit*')" class="nama"/>
-                  <x-text-input id="penulis" class="text-3" type="text" name="penulis" required autofocus/>
+                  <x-text-input id="penulis" class="text-3" type="text" name="penulis" value="{{Auth::user()->nama_depan . ' ' . Auth::user()->nama_belakang}}" required autofocus/>
                   <x-input-error :messages="$errors->get('penulis')" class="mt-2" />
                 </div>
                 <div class="rectangle-2-5">
