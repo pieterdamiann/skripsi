@@ -44,17 +44,22 @@
                 </div>
               </div>
               <div class="rectangle-ext">
-                <div class="berita">
-                  <a href="/berita">Berita</a>
-                </div>
-                <div class="tentang-pemilu">
-                  <a href="/tentangpemilu">Tentang Pemilu</a>
-                </div>
-                <div class="partai">
-                  <a href="/partai">Partai</a>
-                </div>
-                <div class="tentang-kami">
-                  <a href="/tentangkami">Tentang Kami</a>
+                <div class="rectangle-isi">
+                  <div class="berita">
+                    <a href="/berita">Berita</a>
+                  </div>
+                  <div class="tentang-pemilu">
+                    <a href="/tentangpemilu">Tentang Pemilu</a>
+                  </div>
+                  <div class="partai">
+                    <a href="/partai">Partai</a>
+                  </div>
+                  <div class="forum">
+                    <a href="/forum">Forum</a>
+                  </div>
+                  <div class="tentang-kami">
+                    <a href="/tentangkami">Tentang Kami</a>
+                  </div>
                 </div>
               </div>
             {{-- <div class="line-1"></div> --}}
@@ -106,6 +111,25 @@
               </div>
             </div>
             @endisset
+            <div class="forum-1">
+              <a href="/forum">Forum</a>
+            </div>
+            <div class="rectangle-7">
+              <div class="text-4">
+                Tanggapan Kalian Mengenai Revisi UU dari DPR 
+              </div>
+              <span class="text-4-1">
+                dari Joko Widodo
+              </span>
+            </div>
+            <div class="rectangle-7-1">
+              <div class="text-4">
+                Politik di Korea Selatan Sama Buruknya Dengan Indonesia
+              </div>
+              <span class="text-4-1">
+                dari Son Heung Min
+              </span>
+            </div>
             <div class="tentang-kami-1">
               Tentang Kami
             </div>
@@ -121,7 +145,7 @@
                 </div>
               </div>
             </div>
-            <div class="rectangle-5">
+            {{-- <div class="rectangle-5">
               <div class="judul">Kritik dan Saran</div>
               <div class="format">
                 <div class="name">
@@ -141,7 +165,7 @@
                   </input>
                 </div>
               </div>
-            </div>
+            </div> --}}
           </div>
             <div class="rectangle-6">
             </div>
