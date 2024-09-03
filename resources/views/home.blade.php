@@ -63,7 +63,7 @@
                 </div>
               </div>
             {{-- <div class="line-1"></div> --}}
-            @if (isset($b) && count($b) > 0)
+            @if (isset($b) && $b instanceof \Illuminate\Database\Eloquent\Collection && $b->count() > 0)
             <div class="berita-1">
               Berita
             </div>
@@ -71,7 +71,7 @@
             @endisset
               
             </div>
-            @if (isset($tp) && count($tp) > 0)
+            @if (isset($tp) && $tp instanceof \Illuminate\Database\Eloquent\Collection && $tp->count() > 0)
                 <div class="tentang-pemilu-1">
                 Tentang Pemilu
               </div>
@@ -90,7 +90,7 @@
                 @endforeach
               </div>
             @endisset
-            @if (isset($p) && count($p) > 0)
+            @if (isset($p) && $p instanceof \Illuminate\Database\Eloquent\Collection && $p->count() > 0)
             <div class="partai-1">
               Partai
             </div>
